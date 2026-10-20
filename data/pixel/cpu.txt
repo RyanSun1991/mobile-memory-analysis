@@ -1,0 +1,16 @@
+      6 CPU part	: 0xd8b
+      1 CPU part	: 0xd8c
+      1 processor	: 0
+      1 processor	: 1
+      1 processor	: 2
+      1 processor	: 3
+      1 processor	: 4
+      1 processor	: 5
+      1 processor	: 6
+/sys/devices/system/cpu/cpu0 2649000
+/sys/devices/system/cpu/cpu1 2649000
+/sys/devices/system/cpu/cpu2 3379000
+/sys/devices/system/cpu/cpu3 3379000
+/sys/devices/system/cpu/cpu4 3379000
+/sys/devices/system/cpu/cpu5 3379000
+/sys/devices/system/cpu/cpu6 4109000

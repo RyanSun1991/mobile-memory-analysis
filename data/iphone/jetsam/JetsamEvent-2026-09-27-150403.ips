@@ -1,0 +1,6887 @@
+{"bug_type":"298","timestamp":"2026-09-27 15:04:03.00 -0400","os_version":"iPhone OS 27.0 (24A437)","roots_installed":0,"incident_id":"22CBD5C9-47F4-459C-BC66-DEBA777762BB"}
+{
+  "build" : "iPhone OS 27.0 (24A437)",
+  "product" : "iPhone14,6",
+  "kernel" : "Darwin Kernel Version 27.0.0: Thu Aug 13 21:40:46 PDT 2026; root:xnu-13432.2.10~2\/RELEASE_ARM64_T8110",
+  "incident" : "22CBD5C9-47F4-459C-BC66-DEBA777762BB",
+  "crashReporterKey" : "70b5051f7b388d52e2cbbc104c4edfd1caded0dd",
+  "date" : "2026-09-27 15:04:03.53 -0400",
+  "codeSigningMonitor" : 2,
+  "bug_type" : "298",
+  "developerMode" : 1,
+  "appleIntelligenceStatus" : {"state":"unavailable"},
+  "timeDelta" : 68472,
+  "memoryStatus" : {
+  "compressorSize" : 27756,
+  "compressions" : 6078086,
+  "decompressions" : 5010435,
+  "zoneMapCap" : 1482440704,
+  "largestZone" : "APFS_4K_OBJS",
+  "largestZoneSize" : 21200896,
+  "pageSize" : 16384,
+  "uncompressed" : 70280,
+  "zoneMapSize" : 246972416,
+  "memoryPages" : {
+    "active" : 33862,
+    "throttled" : 0,
+    "fileBacked" : 28095,
+    "wired" : 142345,
+    "anonymous" : 38985,
+    "purgeable" : 13736,
+    "inactive" : 31410,
+    "free" : 3694,
+    "speculative" : 1808
+  }
+},
+  "largestProcess" : "mediaanalysisd",
+  "genCounter" : 2,
+  "processes" : [
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 118,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        104
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "e2b26c89-8e46-3a4b-a410-4b761ece23c9",
+    "fds" : 25,
+    "name" : "PerfPowerTelemetryClientRegistra",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.085732000000000003,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 739765506,
+    "age" : 2182158695,
+    "coalition" : 196,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7438,
+    "lifetimeMax" : 143,
+    "killDelta" : 85814168
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 233,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        216
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "4cd708d7-301f-3e85-a189-037bee4c0b12",
+    "fds" : 25,
+    "name" : "deviceaccessd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.13614000000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 538878218,
+    "age" : 485815752,
+    "coalition" : 208,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7463,
+    "lifetimeMax" : 241,
+    "killDelta" : 544974614
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 178,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        164
+      ]
+    },
+    "mem_regions" : 64,
+    "uuid" : "d052f2e9-4c47-3983-ab62-4c26dde2937c",
+    "fds" : 25,
+    "name" : "AppIntentsLiveEntityService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.055742,
+    "freeze_skip_reason:" : "none",
+    "age" : 474252920,
+    "coalition" : 22,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7467,
+    "lifetimeMax" : 185,
+    "killDelta" : 539885190
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 365,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        344
+      ]
+    },
+    "mem_regions" : 73,
+    "uuid" : "1d85ac11-c349-34f6-8ba3-33adcdd9cb50",
+    "fds" : 25,
+    "name" : "mediaremoted",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.44132300000000002,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 10463443,
+    "age" : 485761582,
+    "coalition" : 22,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7464,
+    "lifetimeMax" : 372,
+    "killDelta" : 1433627535
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 212,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        195
+      ]
+    },
+    "mem_regions" : 64,
+    "uuid" : "fc91bc11-5c74-3745-8196-1d990d204339",
+    "fds" : 25,
+    "name" : "com.apple.SharePlay.NearbyInvita",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.084930000000000005,
+    "freeze_skip_reason:" : "none",
+    "age" : 469471501,
+    "coalition" : 22,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7469,
+    "lifetimeMax" : 212,
+    "killDelta" : 541515107
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 1192,
+    "physicalPages" : {
+      "internal" : [
+        20,
+        1294
+      ]
+    },
+    "mem_regions" : 206,
+    "uuid" : "fe8654c2-fb2b-35b9-995f-6711d79c7a84",
+    "fds" : 64,
+    "name" : "routined",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 599.61124800000005,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 18275835,
+    "age" : 9800596971681,
+    "coalition" : 20,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 40,
+    "lifetimeMax" : 1340,
+    "killDelta" : 549891246
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 242,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        225
+      ]
+    },
+    "mem_regions" : 66,
+    "uuid" : "115bf2f8-35f7-304c-8009-c2dfee11f36f",
+    "fds" : 25,
+    "name" : "PowerUIAgent",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.13600400000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 540348852,
+    "age" : 464683379,
+    "coalition" : 226,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7471,
+    "lifetimeMax" : 248,
+    "killDelta" : 548730491
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 143,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        128
+      ]
+    },
+    "mem_regions" : 65,
+    "uuid" : "3002f1df-fe75-37ad-8737-2b20cb6962de",
+    "fds" : 25,
+    "name" : "deleted",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.089927999999999994,
+    "freeze_skip_reason:" : "none",
+    "age" : 457380051,
+    "coalition" : 401,
+    "csFlags" : 2717920001,
+    "reason" : "idle-exit",
+    "pid" : 7476,
+    "lifetimeMax" : 143,
+    "killDelta" : 543521457
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 406,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        387
+      ]
+    },
+    "mem_regions" : 78,
+    "uuid" : "97c1375f-74fa-3efb-ab0b-a743fa561ed6",
+    "fds" : 25,
+    "name" : "biomed",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.353159,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 207525410,
+    "age" : 467100555,
+    "coalition" : 50,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7470,
+    "lifetimeMax" : 477,
+    "killDelta" : 1434009146
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 150,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        133
+      ]
+    },
+    "mem_regions" : 67,
+    "uuid" : "9cad7959-586d-3c94-a685-7ba9cc92583f",
+    "fds" : 25,
+    "name" : "privacyaccountingd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.105215,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 246331463,
+    "age" : 599568865,
+    "coalition" : 515,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7458,
+    "lifetimeMax" : 166,
+    "killDelta" : 545168211
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 108,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        94
+      ]
+    },
+    "mem_regions" : 57,
+    "uuid" : "86186127-6679-35be-9600-6f82372a8a59",
+    "fds" : 25,
+    "name" : "MobileGestaltHelper",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.024294,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 305557972,
+    "age" : 483248992,
+    "coalition" : 180,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7465,
+    "lifetimeMax" : 124,
+    "killDelta" : 551550602
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 182,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        171
+      ]
+    },
+    "mem_regions" : 81,
+    "uuid" : "5ac7cad2-ebaf-3715-8f68-66f27b712cd7",
+    "fds" : 25,
+    "name" : "followupd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.044441000000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 209584358,
+    "age" : 437372967,
+    "coalition" : 310,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7481,
+    "lifetimeMax" : 200,
+    "killDelta" : 544358099
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 137,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        121
+      ]
+    },
+    "mem_regions" : 62,
+    "uuid" : "6ea7d379-badb-3c3a-a261-34e97894d300",
+    "fds" : 25,
+    "name" : "countryd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.026246999999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 436796651,
+    "coalition" : 392,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7483,
+    "lifetimeMax" : 137,
+    "killDelta" : 543915293
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 198,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        181
+      ]
+    },
+    "mem_regions" : 65,
+    "uuid" : "9a75856a-5cc1-32c2-8350-c1e895d4e29c",
+    "fds" : 25,
+    "name" : "pkd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.058137000000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 317890455,
+    "age" : 427216729,
+    "coalition" : 268,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7485,
+    "lifetimeMax" : 202,
+    "killDelta" : 545074887
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 510,
+    "physicalPages" : {
+      "internal" : [
+        22,
+        496
+      ]
+    },
+    "mem_regions" : 115,
+    "uuid" : "3ce8bd79-fb99-35e7-9793-0c18ab94cad8",
+    "fds" : 25,
+    "name" : "networkserviceproxy",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 204.329882,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 503057918,
+    "age" : 8300982653000,
+    "coalition" : 302,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 2018,
+    "lifetimeMax" : 728,
+    "killDelta" : 545916922
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 363,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        345
+      ]
+    },
+    "mem_regions" : 72,
+    "uuid" : "4e5e6a15-bdb4-3930-9b30-38828cfb2713",
+    "fds" : 25,
+    "name" : "usernotificationsd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 3.7885420000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 253877112,
+    "age" : 8301043999164,
+    "coalition" : 182,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 2004,
+    "lifetimeMax" : 426,
+    "killDelta" : 1433790221
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 181,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        164
+      ]
+    },
+    "mem_regions" : 66,
+    "uuid" : "5feb4fea-9321-32a9-abdc-e2332da10b1f",
+    "fds" : 25,
+    "name" : "ctkd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.057557999999999998,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 280795298,
+    "age" : 428491722,
+    "coalition" : 336,
+    "csFlags" : 570499841,
+    "reason" : "idle-exit",
+    "pid" : 7484,
+    "lifetimeMax" : 189,
+    "killDelta" : 1432496177
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 157,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        141
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "25af1183-5b5c-3642-b608-34efa38f7717",
+    "fds" : 25,
+    "name" : "usermanagerd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.043020999999999997,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 171750700,
+    "age" : 479741466,
+    "coalition" : 162,
+    "csFlags" : 2717920009,
+    "reason" : "idle-exit",
+    "pid" : 7466,
+    "lifetimeMax" : 163,
+    "killDelta" : 1433822506
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 298,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        282
+      ]
+    },
+    "mem_regions" : 79,
+    "uuid" : "69335444-f06e-3bc2-908d-e9f358952f61",
+    "fds" : 25,
+    "name" : "syncdefaultsd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.32505000000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 289049193,
+    "age" : 416743856,
+    "coalition" : 306,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7487,
+    "lifetimeMax" : 316,
+    "killDelta" : 545027359
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 245,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        226
+      ]
+    },
+    "mem_regions" : 65,
+    "uuid" : "fa622299-dfb7-3943-b87f-d05856136849",
+    "fds" : 25,
+    "name" : "bluetoothuserd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.136795,
+    "freeze_skip_reason:" : "none",
+    "age" : 418374114,
+    "coalition" : 246,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7486,
+    "lifetimeMax" : 252,
+    "killDelta" : 543990017
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 190,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        174
+      ]
+    },
+    "mem_regions" : 67,
+    "uuid" : "7f199bed-5718-343f-9688-f867fc63a691",
+    "fds" : 25,
+    "name" : "ManagedSettingsAgent",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.221299,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 5942493,
+    "age" : 886263520,
+    "coalition" : 96,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7449,
+    "lifetimeMax" : 205,
+    "killDelta" : 1432393568
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 153,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        139
+      ]
+    },
+    "mem_regions" : 60,
+    "uuid" : "4afdec11-9d38-3395-b282-af3cc29fa53c",
+    "fds" : 25,
+    "name" : "deviceconfigurationd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.036081000000000002,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 29408570,
+    "age" : 878156490,
+    "coalition" : 156,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7452,
+    "lifetimeMax" : 169,
+    "killDelta" : 1430875222
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 181,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        167
+      ]
+    },
+    "mem_regions" : 60,
+    "uuid" : "2fa45abf-3965-3b48-8c08-bb8d4277583f",
+    "fds" : 25,
+    "name" : "DeviceConfigurationAgent",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.20027300000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 13799106,
+    "age" : 879097009,
+    "coalition" : 500,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7451,
+    "lifetimeMax" : 196,
+    "killDelta" : 1432331226
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 706,
+    "physicalPages" : {
+      "internal" : [
+        8,
+        727
+      ]
+    },
+    "mem_regions" : 124,
+    "uuid" : "a6fc89dd-e0b3-377e-8ce1-100735b34b4f",
+    "fds" : 25,
+    "name" : "ScreenTimeAgent",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 80.305389000000005,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 357578376,
+    "age" : 8300835523681,
+    "coalition" : 364,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 2069,
+    "lifetimeMax" : 853,
+    "killDelta" : 1434115761
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 381,
+    "physicalPages" : {
+      "internal" : [
+        57,
+        314
+      ]
+    },
+    "mem_regions" : 447,
+    "uuid" : "ddd4d754-e939-30d1-ab7a-b1269c0592a1",
+    "fds" : 64,
+    "name" : "amsengagementd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.25779200000000002,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 534430298,
+    "age" : 415829937,
+    "coalition" : 427,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7488,
+    "lifetimeMax" : 401,
+    "killDelta" : 552053403
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 215,
+    "physicalPages" : {
+      "internal" : [
+        8,
+        194
+      ]
+    },
+    "mem_regions" : 71,
+    "uuid" : "7ef9c106-f607-3577-ad40-e67312aabecf",
+    "fds" : 25,
+    "name" : "coreauthd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.31651000000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 573323976,
+    "age" : 4944378198,
+    "coalition" : 178,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7421,
+    "lifetimeMax" : 228,
+    "killDelta" : 1433728854
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 283,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        279
+      ]
+    },
+    "mem_regions" : 82,
+    "uuid" : "034b3c45-767e-3c1d-a2d6-247d39d2eb38",
+    "fds" : 25,
+    "name" : "dmd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.249804,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 156489404,
+    "age" : 873280675,
+    "coalition" : 362,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7453,
+    "lifetimeMax" : 293,
+    "killDelta" : 1433660105
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 196,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        179
+      ]
+    },
+    "mem_regions" : 377,
+    "uuid" : "9ee134c7-7c5f-3a15-9420-f28ba79e1bf2",
+    "fds" : 25,
+    "name" : "mediaparserd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.36648900000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 2182476207,
+    "coalition" : 486,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7437,
+    "lifetimeMax" : 236,
+    "killDelta" : 544177110
+  },
+  {
+    "states" : [
+      "suspended"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 3563,
+    "physicalPages" : {
+      "internal" : [
+        11,
+        3505
+      ]
+    },
+    "mem_regions" : 118,
+    "uuid" : "539bd83b-fb6f-3130-9799-252482d05be2",
+    "fds" : 50,
+    "name" : "AlchemistInferenceProvider",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 5.9872630000000004,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 27081215,
+    "age" : 2080092949536,
+    "coalition" : 408,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 5999,
+    "lifetimeMax" : 9534,
+    "killDelta" : 552250040
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 277,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        256
+      ]
+    },
+    "mem_regions" : 319,
+    "uuid" : "0c271117-04cd-3047-a61c-7748dd268aa4",
+    "fds" : 25,
+    "name" : "avconferenced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.079821000000000003,
+    "freeze_skip_reason:" : "none",
+    "age" : 459941340,
+    "coalition" : 1470,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7475,
+    "lifetimeMax" : 281,
+    "killDelta" : 544209857
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 694,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        675
+      ]
+    },
+    "mem_regions" : 105,
+    "uuid" : "682582d4-1333-370e-a698-db08ac3f3ab9",
+    "fds" : 25,
+    "name" : "financed",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.42335600000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 2734463563,
+    "age" : 4865045007,
+    "coalition" : 432,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7428,
+    "lifetimeMax" : 713,
+    "killDelta" : 1434582859
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 355,
+    "physicalPages" : {
+      "internal" : [
+        32,
+        310
+      ]
+    },
+    "mem_regions" : 74,
+    "uuid" : "cd82919b-52da-3448-9b98-1029c8ff9dda",
+    "fds" : 25,
+    "name" : "modelcatalogd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 25.705831,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 258921841,
+    "age" : 9800441059055,
+    "coalition" : 388,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 231,
+    "lifetimeMax" : 588,
+    "killDelta" : 551830969
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 356,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        338
+      ]
+    },
+    "mem_regions" : 69,
+    "uuid" : "f98e5e8b-a028-3d5c-9618-899a59e4ba8e",
+    "fds" : 25,
+    "name" : "audioaccessoryd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.47058,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 62049863,
+    "age" : 488849773,
+    "coalition" : 108,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7462,
+    "lifetimeMax" : 374,
+    "killDelta" : 545367688
+  },
+  {
+    "uuid" : "64fbfcd0-01b9-3fd2-90d4-a5850d870a47",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 351426192,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 5653128249271,
+    "fds" : 64,
+    "coalition" : 850,
+    "csTrustLevel" : 9,
+    "rpages" : 505,
+    "priority" : 10,
+    "mem_regions" : 83,
+    "physicalPages" : {
+      "internal" : [
+        38,
+        453
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 4021,
+    "cpuTime" : 10.875776999999999,
+    "name" : "momentsd",
+    "lifetimeMax" : 608
+  },
+  {
+    "uuid" : "353281c4-cd19-3f8c-b8ae-d2b85a161a24",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 110032512,
+    "fds" : 25,
+    "coalition" : 683,
+    "csTrustLevel" : 9,
+    "rpages" : 481,
+    "priority" : 10,
+    "mem_regions" : 426,
+    "physicalPages" : {
+      "internal" : [
+        223,
+        242
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7490,
+    "cpuTime" : 0.098989999999999995,
+    "name" : "MTLCompilerService",
+    "lifetimeMax" : 481
+  },
+  {
+    "uuid" : "d4e1506f-56d8-3c7a-88bc-ebbac93a33dc",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 294675866,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800462989281,
+    "fds" : 64,
+    "coalition" : 366,
+    "csTrustLevel" : 9,
+    "rpages" : 983,
+    "priority" : 10,
+    "mem_regions" : 1568,
+    "physicalPages" : {
+      "internal" : [
+        181,
+        828
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 219,
+    "cpuTime" : 3863.5536889999998,
+    "name" : "searchpartyd",
+    "lifetimeMax" : 2481
+  },
+  {
+    "uuid" : "812be89a-53cb-382d-a788-ccc0c89eba09",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 3244519537,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800426130635,
+    "fds" : 25,
+    "coalition" : 408,
+    "csTrustLevel" : 9,
+    "rpages" : 426,
+    "priority" : 10,
+    "mem_regions" : 83,
+    "physicalPages" : {
+      "internal" : [
+        207,
+        204
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 248,
+    "cpuTime" : 37.190807,
+    "name" : "modelmanagerd",
+    "lifetimeMax" : 513
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 320,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        298
+      ]
+    },
+    "mem_regions" : 81,
+    "uuid" : "eb958713-9732-38b5-b698-9e65589a08d5",
+    "fds" : 25,
+    "name" : "seserviced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 4.5327960000000003,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 105820324,
+    "age" : 2080003390364,
+    "coalition" : 372,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 6001,
+    "lifetimeMax" : 346,
+    "killDelta" : 1433176378
+  },
+  {
+    "uuid" : "a9c2ed7c-1f05-3acc-9e62-f26911d9838e",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 34737083,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596895592,
+    "fds" : 25,
+    "coalition" : 40,
+    "csTrustLevel" : 9,
+    "rpages" : 282,
+    "priority" : 10,
+    "mem_regions" : 80,
+    "physicalPages" : {
+      "internal" : [
+        103,
+        165
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 50,
+    "cpuTime" : 250.44961699999999,
+    "name" : "tccd",
+    "lifetimeMax" : 1008
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 123,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        109
+      ]
+    },
+    "mem_regions" : 59,
+    "uuid" : "c6b6dcf0-b0ac-3186-b4e4-60ef353bd8c2",
+    "fds" : 25,
+    "name" : "adid",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.061589999999999999,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 137244333,
+    "age" : 460635590,
+    "coalition" : 405,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7473,
+    "lifetimeMax" : 246,
+    "killDelta" : 1434506632
+  },
+  {
+    "uuid" : "8068e055-2145-357e-8f96-e1faf581013c",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 1431831486,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 2541788270291,
+    "fds" : 64,
+    "coalition" : 376,
+    "csTrustLevel" : 9,
+    "rpages" : 466,
+    "priority" : 10,
+    "mem_regions" : 95,
+    "physicalPages" : {
+      "internal" : [
+        108,
+        398
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 5775,
+    "cpuTime" : 14.051342,
+    "name" : "akd",
+    "lifetimeMax" : 513
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 684,
+    "physicalPages" : {
+      "internal" : [
+        67,
+        734
+      ]
+    },
+    "mem_regions" : 209,
+    "uuid" : "1ee6d3f9-0029-3882-8489-67055f28d413",
+    "fds" : 64,
+    "name" : "securityd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 269.725008,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 214760843,
+    "age" : 9800577637992,
+    "coalition" : 174,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 118,
+    "lifetimeMax" : 1373,
+    "killDelta" : 1434517857
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 678,
+    "physicalPages" : {
+      "internal" : [
+        89,
+        592
+      ]
+    },
+    "mem_regions" : 108,
+    "uuid" : "e1dc7958-3a0d-38a8-b0f3-4ad49bc46dbd",
+    "fds" : 25,
+    "name" : "geod",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 70.431066999999999,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 8580402,
+    "age" : 8300885093637,
+    "coalition" : 278,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 2051,
+    "lifetimeMax" : 767,
+    "killDelta" : 1434399344
+  },
+  {
+    "uuid" : "9fccf7fb-530f-3cb3-b8cb-ba0bffe7e176",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 1650740621,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9799495020611,
+    "fds" : 25,
+    "coalition" : 688,
+    "csTrustLevel" : 9,
+    "rpages" : 226,
+    "priority" : 10,
+    "mem_regions" : 69,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        211
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 473,
+    "cpuTime" : 18.714746000000002,
+    "name" : "AssetCacheLocatorService",
+    "lifetimeMax" : 259
+  },
+  {
+    "uuid" : "60d1ad90-6c1e-34ae-b555-21627d19bdc6",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 21625473,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8135410056155,
+    "fds" : 64,
+    "coalition" : 884,
+    "csTrustLevel" : 9,
+    "rpages" : 944,
+    "priority" : 10,
+    "mem_regions" : 167,
+    "physicalPages" : {
+      "internal" : [
+        83,
+        934
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 2306,
+    "cpuTime" : 152.68831700000001,
+    "name" : "asd",
+    "lifetimeMax" : 1186
+  },
+  {
+    "uuid" : "92e42ab7-cc9a-3d6e-88ea-75e3972e4d60",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 21957850,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8860299908833,
+    "fds" : 64,
+    "coalition" : 1322,
+    "csTrustLevel" : 9,
+    "rpages" : 719,
+    "priority" : 10,
+    "mem_regions" : 287,
+    "physicalPages" : {
+      "internal" : [
+        87,
+        613
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 1613,
+    "cpuTime" : 21.142612,
+    "name" : "photosfaced",
+    "lifetimeMax" : 5612
+  },
+  {
+    "uuid" : "9fb2af98-3732-3cdf-918e-a2633976eebf",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 631162179,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800570443700,
+    "fds" : 64,
+    "coalition" : 192,
+    "csTrustLevel" : 9,
+    "rpages" : 485,
+    "priority" : 10,
+    "mem_regions" : 113,
+    "physicalPages" : {
+      "internal" : [
+        46,
+        472
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 127,
+    "cpuTime" : 280.55389200000002,
+    "name" : "trustd",
+    "lifetimeMax" : 531
+  },
+  {
+    "uuid" : "bb5a7391-1fb5-3132-94f1-fbbda7c2024e",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 79464262,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 5360761708,
+    "fds" : 25,
+    "coalition" : 754,
+    "csTrustLevel" : 9,
+    "rpages" : 395,
+    "priority" : 10,
+    "mem_regions" : 85,
+    "physicalPages" : {
+      "internal" : [
+        128,
+        275
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7417,
+    "cpuTime" : 1.6844589999999999,
+    "name" : "cloudphotod",
+    "lifetimeMax" : 427
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 257,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        248
+      ]
+    },
+    "mem_regions" : 73,
+    "uuid" : "6b97b6f7-9a4e-312e-a5c0-d820d24afcbd",
+    "fds" : 25,
+    "name" : "rtcreportingd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 15.010566000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 292408709,
+    "age" : 8301237144544,
+    "coalition" : 266,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 1995,
+    "lifetimeMax" : 306,
+    "killDelta" : 545768864
+  },
+  {
+    "uuid" : "67f419be-532e-3c98-95df-bda25f936f29",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 50348422,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 334404121152,
+    "fds" : 25,
+    "coalition" : 1037,
+    "csTrustLevel" : 9,
+    "rpages" : 207,
+    "priority" : 10,
+    "mem_regions" : 80,
+    "physicalPages" : {
+      "internal" : [
+        87,
+        111
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7250,
+    "cpuTime" : 5.1873459999999998,
+    "name" : "symptomsd-helper",
+    "lifetimeMax" : 212
+  },
+  {
+    "uuid" : "3d255d91-1723-3343-bbcf-6f7ba6a93dd2",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 523978520,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8300672797751,
+    "fds" : 64,
+    "coalition" : 244,
+    "csTrustLevel" : 9,
+    "rpages" : 564,
+    "priority" : 10,
+    "mem_regions" : 103,
+    "physicalPages" : {
+      "internal" : [
+        199,
+        347
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 2095,
+    "cpuTime" : 58.178628000000003,
+    "name" : "findmydeviced",
+    "lifetimeMax" : 644
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 153,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        138
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "cdb03532-fef7-37f7-8d58-56a2dccf74c6",
+    "fds" : 25,
+    "name" : "mobileactivationd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.085816000000000003,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 202562492,
+    "age" : 1571416651,
+    "coalition" : 198,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7439,
+    "lifetimeMax" : 188,
+    "killDelta" : 549700350
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 773,
+    "physicalPages" : {
+      "internal" : [
+        13,
+        764
+      ]
+    },
+    "mem_regions" : 220,
+    "uuid" : "ea5171a4-76a0-3188-809c-9c23edaadd8f",
+    "fds" : 25,
+    "name" : "intelligenceflowd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.082054000000000002,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 108353550,
+    "age" : 7902814,
+    "coalition" : 358,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7491,
+    "lifetimeMax" : 810,
+    "killDelta" : 1433505504
+  },
+  {
+    "uuid" : "3822460d-d4ea-3321-98d6-24385f6e2409",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 534076736,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596955820,
+    "fds" : 25,
+    "coalition" : 24,
+    "csTrustLevel" : 9,
+    "rpages" : 750,
+    "priority" : 10,
+    "mem_regions" : 175,
+    "physicalPages" : {
+      "internal" : [
+        218,
+        514
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 42,
+    "cpuTime" : 122.61120200000001,
+    "name" : "accountsd",
+    "lifetimeMax" : 780
+  },
+  {
+    "uuid" : "d1e8565f-57ce-36c2-8fd7-6b1a7eca9cb8",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 1742380328,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800580472374,
+    "fds" : 25,
+    "coalition" : 168,
+    "csTrustLevel" : 9,
+    "rpages" : 167,
+    "priority" : 10,
+    "mem_regions" : 61,
+    "physicalPages" : {
+      "internal" : [
+        109,
+        47
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 114,
+    "cpuTime" : 30.708313,
+    "name" : "containermanagerd_system",
+    "lifetimeMax" : 197
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 303,
+    "physicalPages" : {
+      "internal" : [
+        36,
+        256
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "59ba6881-5638-369f-b2e5-e71bdc2347ba",
+    "fds" : 25,
+    "name" : "biomesyncd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.057326000000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 6488346,
+    "coalition" : 635,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7492,
+    "lifetimeMax" : 328,
+    "killDelta" : 1434255115
+  },
+  {
+    "uuid" : "ff75a645-a0f2-3b08-a7cc-5ceaa3e9ee42",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 1,
+    "age" : 3319497,
+    "fds" : 25,
+    "coalition" : 280,
+    "csTrustLevel" : 9,
+    "rpages" : 160,
+    "priority" : 10,
+    "mem_regions" : 80,
+    "physicalPages" : {
+      "internal" : [
+        147,
+        0
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7495,
+    "cpuTime" : 0.054634000000000002,
+    "name" : "transparencyd",
+    "lifetimeMax" : 160
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 337,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        389
+      ]
+    },
+    "mem_regions" : 83,
+    "uuid" : "0f7a47ec-924a-383a-bc76-fbabee32c710",
+    "fds" : 25,
+    "name" : "mapssyncd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 1.649516,
+    "freeze_skip_reason:" : "none",
+    "age" : 4928852653,
+    "coalition" : 672,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7423,
+    "lifetimeMax" : 358,
+    "killDelta" : 544286464
+  },
+  {
+    "uuid" : "074efcdf-3b5e-35f1-993a-574b8cb75a3a",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 5798951413,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 2079432022195,
+    "fds" : 25,
+    "coalition" : 282,
+    "csTrustLevel" : 9,
+    "rpages" : 456,
+    "priority" : 15,
+    "mem_regions" : 112,
+    "physicalPages" : {
+      "internal" : [
+        56,
+        400
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 6018,
+    "cpuTime" : 4.1582290000000004,
+    "name" : "contactsd",
+    "lifetimeMax" : 1110
+  },
+  {
+    "uuid" : "c3a2e01a-b820-313c-9814-437317ce71e8",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 511707910,
+    "fds" : 25,
+    "coalition" : 334,
+    "csTrustLevel" : 9,
+    "rpages" : 354,
+    "priority" : 15,
+    "mem_regions" : 365,
+    "physicalPages" : {
+      "internal" : [
+        78,
+        221
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7461,
+    "cpuTime" : 0.32518399999999997,
+    "name" : "wifip2pd",
+    "lifetimeMax" : 370
+  },
+  {
+    "uuid" : "0c6cfda5-2c7a-3588-be83-364ec93fb93c",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 3414691941,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8300941217909,
+    "fds" : 25,
+    "coalition" : 254,
+    "csTrustLevel" : 9,
+    "rpages" : 1031,
+    "priority" : 15,
+    "mem_regions" : 729,
+    "physicalPages" : {
+      "internal" : [
+        103,
+        916
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 2029,
+    "cpuTime" : 25.823504,
+    "name" : "callservicesd",
+    "lifetimeMax" : 1119
+  },
+  {
+    "uuid" : "326e4f58-9ee2-3259-935e-fb8a46b15005",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 19128213,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 6223104065737,
+    "fds" : 25,
+    "coalition" : 624,
+    "csTrustLevel" : 9,
+    "rpages" : 426,
+    "priority" : 15,
+    "mem_regions" : 82,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        414
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 3569,
+    "cpuTime" : 29.609303000000001,
+    "name" : "intelligentroutingd",
+    "lifetimeMax" : 496
+  },
+  {
+    "uuid" : "c552ce76-d350-3f2d-b68b-028252f36389",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 456140328,
+    "fds" : 25,
+    "coalition" : 1470,
+    "csTrustLevel" : 9,
+    "rpages" : 145,
+    "priority" : 15,
+    "mem_regions" : 70,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        129
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7477,
+    "cpuTime" : 0.016310999999999999,
+    "name" : "AudioConverterHardenedService",
+    "lifetimeMax" : 145
+  },
+  {
+    "uuid" : "1253ac3a-595b-3cda-8cb6-03bc5435e52a",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 456130862,
+    "fds" : 25,
+    "coalition" : 1470,
+    "csTrustLevel" : 9,
+    "rpages" : 144,
+    "priority" : 15,
+    "mem_regions" : 162,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        128
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7478,
+    "cpuTime" : 0.015639,
+    "name" : "AudioConverterService",
+    "lifetimeMax" : 144
+  },
+  {
+    "uuid" : "8153cc20-90ee-35d0-8f24-0915d68908e3",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 730679,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800551202189,
+    "fds" : 64,
+    "coalition" : 230,
+    "csTrustLevel" : 9,
+    "rpages" : 1610,
+    "priority" : 15,
+    "mem_regions" : 225,
+    "physicalPages" : {
+      "internal" : [
+        128,
+        1594
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 147,
+    "cpuTime" : 100.382249,
+    "name" : "homed",
+    "lifetimeMax" : 1900
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 350,
+    "physicalPages" : {
+      "internal" : [
+        29,
+        320
+      ]
+    },
+    "mem_regions" : 115,
+    "uuid" : "5eea2675-f8ea-32fe-84b9-ef026e853600",
+    "fds" : 25,
+    "name" : "appleaccountd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.24927199999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 437286527,
+    "coalition" : 378,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7482,
+    "lifetimeMax" : 376,
+    "killDelta" : 1432581586
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 211,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        196
+      ]
+    },
+    "mem_regions" : 62,
+    "uuid" : "26da624b-cc50-3260-88a7-e3125c2f4697",
+    "fds" : 25,
+    "name" : "medialibraryd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.084163000000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 461851186,
+    "coalition" : 630,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7472,
+    "lifetimeMax" : 214,
+    "killDelta" : 1433296322
+  },
+  {
+    "uuid" : "ffa4e60b-3ab6-3b9a-a358-83d26fd3196c",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 359682635,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596554398,
+    "fds" : 25,
+    "coalition" : 106,
+    "csTrustLevel" : 9,
+    "rpages" : 241,
+    "priority" : 15,
+    "mem_regions" : 65,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        224
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 83,
+    "cpuTime" : 54.171892,
+    "name" : "containermanagerd",
+    "lifetimeMax" : 397
+  },
+  {
+    "uuid" : "b6a67fb1-6584-35ad-a5bc-ec0683ae980c",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 442442940,
+    "fds" : 25,
+    "coalition" : 328,
+    "csTrustLevel" : 9,
+    "rpages" : 287,
+    "priority" : 15,
+    "mem_regions" : 88,
+    "physicalPages" : {
+      "internal" : [
+        103,
+        183
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7479,
+    "cpuTime" : 0.176731,
+    "name" : "familycircled",
+    "lifetimeMax" : 293
+  },
+  {
+    "uuid" : "c5d2dcee-cd9e-3a8e-a5dd-d2721fde9720",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 116256962,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8300950286796,
+    "fds" : 128,
+    "coalition" : 18,
+    "csTrustLevel" : 9,
+    "rpages" : 1193,
+    "priority" : 15,
+    "mem_regions" : 121,
+    "physicalPages" : {
+      "internal" : [
+        79,
+        1118
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 2026,
+    "cpuTime" : 69.021286000000003,
+    "name" : "assistantd",
+    "lifetimeMax" : 1312
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 470,
+    "physicalPages" : {
+      "internal" : [
+        107,
+        356
+      ]
+    },
+    "mem_regions" : 96,
+    "uuid" : "bb09a280-04b4-3f9b-ad54-5edee724a41b",
+    "fds" : 25,
+    "name" : "itunescloudd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.45469199999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 470790185,
+    "coalition" : 374,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7468,
+    "lifetimeMax" : 484,
+    "killDelta" : 1433319475
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 430,
+    "physicalPages" : {
+      "internal" : [
+        127,
+        297
+      ]
+    },
+    "mem_regions" : 94,
+    "uuid" : "ca9c8d3c-5dfa-3396-97b0-ab7cdd966945",
+    "fds" : 25,
+    "name" : "amsaccountsd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.71575200000000005,
+    "freeze_skip_reason:" : "none",
+    "age" : 460359583,
+    "coalition" : 144,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7474,
+    "lifetimeMax" : 446,
+    "killDelta" : 1434660583
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 246,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        229
+      ]
+    },
+    "mem_regions" : 74,
+    "uuid" : "c0599127-8987-3a53-9e92-bab039fe9eb3",
+    "fds" : 25,
+    "name" : "eligibilityd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 1.524764,
+    "freeze_skip_reason:" : "none",
+    "age" : 440595098,
+    "coalition" : 390,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7480,
+    "lifetimeMax" : 247,
+    "killDelta" : 1433359146
+  },
+  {
+    "uuid" : "d669daba-db87-3a9e-9d79-7c062c0d0123",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800485621044,
+    "fds" : 25,
+    "coalition" : 330,
+    "csTrustLevel" : 9,
+    "rpages" : 121,
+    "priority" : 40,
+    "mem_regions" : 61,
+    "physicalPages" : {
+      "internal" : [
+        45,
+        66
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 201,
+    "cpuTime" : 423.01367900000002,
+    "name" : "clocksyncd",
+    "lifetimeMax" : 124
+  },
+  {
+    "uuid" : "eba0cc17-cb93-3801-b449-c30051d89d6b",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 47957916,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596416000,
+    "fds" : 25,
+    "coalition" : 136,
+    "csTrustLevel" : 9,
+    "rpages" : 288,
+    "priority" : 40,
+    "mem_regions" : 77,
+    "physicalPages" : {
+      "internal" : [
+        58,
+        217
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 98,
+    "cpuTime" : 90.852798000000007,
+    "name" : "safetyalertsd",
+    "lifetimeMax" : 293
+  },
+  {
+    "uuid" : "a2872b48-7248-367c-9554-45c83d37c802",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800256725137,
+    "fds" : 25,
+    "coalition" : 504,
+    "csTrustLevel" : 9,
+    "rpages" : 422,
+    "priority" : 40,
+    "mem_regions" : 90,
+    "physicalPages" : {
+      "internal" : [
+        30,
+        416
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 319,
+    "cpuTime" : 25.755652000000001,
+    "name" : "heard",
+    "lifetimeMax" : 493
+  },
+  {
+    "uuid" : "b1a7b6c0-8e1f-3f97-aac8-064a13af0d58",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800146597856,
+    "fds" : 50,
+    "coalition" : 312,
+    "csTrustLevel" : 9,
+    "rpages" : 903,
+    "priority" : 40,
+    "mem_regions" : 110,
+    "physicalPages" : {
+      "internal" : [
+        21,
+        864
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 335,
+    "cpuTime" : 3.6736249999999999,
+    "name" : "AccessibilityUIServer",
+    "lifetimeMax" : 914
+  },
+  {
+    "uuid" : "9b23d544-5f8f-33d2-89b3-0939f9b92a53",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800489905799,
+    "fds" : 25,
+    "coalition" : 322,
+    "csTrustLevel" : 9,
+    "rpages" : 367,
+    "priority" : 40,
+    "mem_regions" : 91,
+    "physicalPages" : {
+      "internal" : [
+        144,
+        208
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 197,
+    "cpuTime" : 1716.5109359999999,
+    "name" : "nearbyd",
+    "lifetimeMax" : 382
+  },
+  {
+    "uuid" : "51e52873-7d81-3335-af96-5dd0e977b677",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800425743330,
+    "fds" : 64,
+    "coalition" : 410,
+    "csTrustLevel" : 9,
+    "rpages" : 527,
+    "priority" : 40,
+    "mem_regions" : 109,
+    "physicalPages" : {
+      "internal" : [
+        35,
+        507
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 249,
+    "cpuTime" : 65.333149000000006,
+    "name" : "linkd",
+    "lifetimeMax" : 1988
+  },
+  {
+    "uuid" : "c75aa48b-bc77-3862-a87b-7742348c58e9",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800441791309,
+    "fds" : 25,
+    "coalition" : 386,
+    "csTrustLevel" : 9,
+    "rpages" : 468,
+    "priority" : 40,
+    "mem_regions" : 198,
+    "physicalPages" : {
+      "internal" : [
+        170,
+        325
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 230,
+    "cpuTime" : 291.929866,
+    "name" : "nsurlsessiond",
+    "lifetimeMax" : 913
+  },
+  {
+    "uuid" : "bf2490c2-26f8-3520-ab12-9aaa3a5e0fd6",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 12006648,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800160089407,
+    "fds" : 25,
+    "coalition" : 517,
+    "csTrustLevel" : 9,
+    "rpages" : 347,
+    "priority" : 40,
+    "mem_regions" : 87,
+    "physicalPages" : {
+      "internal" : [
+        114,
+        240
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 331,
+    "cpuTime" : 1634.607068,
+    "name" : "milod",
+    "lifetimeMax" : 418
+  },
+  {
+    "uuid" : "1253ac3a-595b-3cda-8cb6-03bc5435e52a",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800502497768,
+    "fds" : 25,
+    "coalition" : 172,
+    "csTrustLevel" : 9,
+    "rpages" : 281,
+    "priority" : 40,
+    "mem_regions" : 382,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        275
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 195,
+    "cpuTime" : 6.6824909999999997,
+    "name" : "AudioConverterService",
+    "lifetimeMax" : 283
+  },
+  {
+    "uuid" : "049be9de-8260-3b49-8724-fb31d82cf31e",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 4363074731,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9793611278885,
+    "fds" : 25,
+    "coalition" : 896,
+    "csTrustLevel" : 9,
+    "rpages" : 212,
+    "priority" : 40,
+    "mem_regions" : 74,
+    "physicalPages" : {
+      "internal" : [
+        49,
+        151
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 668,
+    "cpuTime" : 71.533749999999998,
+    "name" : "clipserviced",
+    "lifetimeMax" : 295
+  },
+  {
+    "uuid" : "54a9c9d0-36cb-32ca-bfc0-2a959d28c2c6",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9785288746797,
+    "fds" : 25,
+    "coalition" : 26,
+    "csTrustLevel" : 9,
+    "rpages" : 405,
+    "priority" : 40,
+    "mem_regions" : 79,
+    "physicalPages" : {
+      "internal" : [
+        48,
+        351
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 785,
+    "cpuTime" : 27.996002000000001,
+    "name" : "axassetsd",
+    "lifetimeMax" : 456
+  },
+  {
+    "uuid" : "9247c92f-1f24-37b2-8a2a-ae2d9fb9017e",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9795615068985,
+    "fds" : 50,
+    "coalition" : 12,
+    "csTrustLevel" : 9,
+    "rpages" : 1298,
+    "priority" : 40,
+    "mem_regions" : 123,
+    "physicalPages" : {
+      "internal" : [
+        191,
+        1094
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 640,
+    "cpuTime" : 562.78749500000004,
+    "name" : "ClockPosterExtension",
+    "lifetimeMax" : 3073
+  },
+  {
+    "uuid" : "d2d06735-6b41-3893-a2ea-d623986afa56",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 2263231422,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800031472312,
+    "fds" : 25,
+    "coalition" : 562,
+    "csTrustLevel" : 9,
+    "rpages" : 263,
+    "priority" : 40,
+    "mem_regions" : 64,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        248
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 363,
+    "cpuTime" : 3.273434,
+    "name" : "fileindexerd",
+    "lifetimeMax" : 300
+  },
+  {
+    "uuid" : "159ddec8-9a10-34ed-b0c9-71f94d58cfa1",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 568710667872,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9330837084458,
+    "fds" : 25,
+    "coalition" : 488,
+    "csTrustLevel" : 9,
+    "rpages" : 238,
+    "priority" : 40,
+    "mem_regions" : 66,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        238
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 1343,
+    "cpuTime" : 2.4588900000000002,
+    "name" : "pipelined",
+    "lifetimeMax" : 269
+  },
+  {
+    "uuid" : "0104ae73-ad3d-3796-ac6f-27dc575aa19d",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 34440984,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800430610593,
+    "fds" : 25,
+    "coalition" : 403,
+    "csTrustLevel" : 9,
+    "rpages" : 262,
+    "priority" : 40,
+    "mem_regions" : 66,
+    "physicalPages" : {
+      "internal" : [
+        25,
+        225
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 243,
+    "cpuTime" : 21.333462000000001,
+    "name" : "useractivityd",
+    "lifetimeMax" : 267
+  },
+  {
+    "uuid" : "e49768d2-5703-3e56-8029-6a7307fb06a5",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8300627220315,
+    "fds" : 50,
+    "coalition" : 244,
+    "csTrustLevel" : 9,
+    "rpages" : 166,
+    "priority" : 40,
+    "mem_regions" : 60,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        152
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 2100,
+    "cpuTime" : 32.079920000000001,
+    "name" : "FindMyDeviceBluetoothExtension",
+    "lifetimeMax" : 174
+  },
+  {
+    "uuid" : "e8b0fc26-2f47-3cd8-9962-562f345ba0b5",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 8300512975601,
+    "fds" : 50,
+    "coalition" : 244,
+    "csTrustLevel" : 9,
+    "rpages" : 162,
+    "priority" : 40,
+    "mem_regions" : 62,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        147
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 2114,
+    "cpuTime" : 3.9770310000000002,
+    "name" : "FMDMagSafeExtension",
+    "lifetimeMax" : 173
+  },
+  {
+    "uuid" : "849bc4a2-e752-37a6-a751-913a171adca5",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 792483837931,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9797617240814,
+    "fds" : 25,
+    "coalition" : 817,
+    "csTrustLevel" : 8,
+    "rpages" : 272,
+    "priority" : 40,
+    "mem_regions" : 83,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        256
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 581,
+    "cpuTime" : 1.834171,
+    "name" : "dtdeviceinfod",
+    "lifetimeMax" : 275
+  },
+  {
+    "uuid" : "79b31292-bd63-3e1c-b22f-6be865e23cbb",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 792742600481,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9582563673937,
+    "fds" : 25,
+    "coalition" : 1133,
+    "csTrustLevel" : 8,
+    "rpages" : 256,
+    "priority" : 40,
+    "mem_regions" : 77,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        239
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 1177,
+    "cpuTime" : 4.1014150000000003,
+    "name" : "dtfileserviced",
+    "lifetimeMax" : 272
+  },
+  {
+    "uuid" : "05ea5e16-5d52-39b3-a818-648d3ee8fb1b",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 4339157635581,
+    "fds" : 50,
+    "coalition" : 2323,
+    "csTrustLevel" : 9,
+    "rpages" : 978,
+    "priority" : 40,
+    "mem_regions" : 131,
+    "physicalPages" : {
+      "internal" : [
+        18,
+        888
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 4868,
+    "cpuTime" : 5.8023109999999996,
+    "name" : "Family",
+    "lifetimeMax" : 986
+  },
+  {
+    "uuid" : "a26e55ea-2d6b-3e2b-9c33-c1ebeeb67d60",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 3821099802030,
+    "fds" : 50,
+    "coalition" : 2416,
+    "csTrustLevel" : 9,
+    "rpages" : 1182,
+    "priority" : 40,
+    "mem_regions" : 111,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        1162
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 5129,
+    "cpuTime" : 2.7028180000000002,
+    "name" : "HealthPrivacyService",
+    "lifetimeMax" : 1192
+  },
+  {
+    "uuid" : "5d106dd8-ca45-30ef-ab43-7f5cead7b2ba",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 3821791325259,
+    "fds" : 50,
+    "coalition" : 2412,
+    "csTrustLevel" : 9,
+    "rpages" : 1407,
+    "priority" : 40,
+    "mem_regions" : 240,
+    "physicalPages" : {
+      "internal" : [
+        19,
+        1327
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 5125,
+    "cpuTime" : 6.2906310000000003,
+    "name" : "AuthKitUIService",
+    "lifetimeMax" : 2259
+  },
+  {
+    "uuid" : "a87c31e3-2184-321e-8dc1-b536d7687dc2",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9799657856815,
+    "fds" : 25,
+    "coalition" : 628,
+    "csTrustLevel" : 9,
+    "rpages" : 211,
+    "priority" : 40,
+    "mem_regions" : 63,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        195
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 429,
+    "cpuTime" : 0.34006399999999998,
+    "name" : "CMFSyncAgent",
+    "lifetimeMax" : 221
+  },
+  {
+    "uuid" : "56f53a96-c603-3274-aa27-0537cb6d25d1",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 88417410,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 6059020995818,
+    "fds" : 128,
+    "coalition" : 751,
+    "csTrustLevel" : 9,
+    "rpages" : 1962,
+    "priority" : 40,
+    "mem_regions" : 236,
+    "physicalPages" : {
+      "internal" : [
+        168,
+        1821
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 3792,
+    "cpuTime" : 147.562926,
+    "name" : "photoanalysisd",
+    "lifetimeMax" : 4106
+  },
+  {
+    "uuid" : "1e253bb8-2652-3af6-aa7a-6f3977beb191",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596587421,
+    "fds" : 25,
+    "coalition" : 102,
+    "csTrustLevel" : 9,
+    "rpages" : 239,
+    "priority" : 40,
+    "mem_regions" : 66,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        221
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 81,
+    "cpuTime" : 43.663514999999997,
+    "name" : "powerexceptionsd",
+    "lifetimeMax" : 310
+  },
+  {
+    "states" : [
+      "active"
+    ],
+    "genCount" : 0,
+    "purgeable" : 0,
+    "rpages" : 32641,
+    "physicalPages" : {
+      "internal" : [
+        4380,
+        3377
+      ]
+    },
+    "mem_regions" : 383,
+    "uuid" : "842d6b54-32e2-3012-bd29-4d312f95a057",
+    "fds" : 64,
+    "name" : "mediaanalysisd",
+    "priority" : 40,
+    "csTrustLevel" : 9,
+    "cpuTime" : 12.131987000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 610058589,
+    "coalition" : 683,
+    "csFlags" : 570434305,
+    "reason" : "highwater",
+    "pid" : 7457,
+    "lifetimeMax" : 32641,
+    "killDelta" : 134007
+  },
+  {
+    "uuid" : "2afac548-5b42-3b29-9dfe-59bc833ad904",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800572575464,
+    "fds" : 64,
+    "coalition" : 186,
+    "csTrustLevel" : 9,
+    "rpages" : 2074,
+    "priority" : 40,
+    "mem_regions" : 197,
+    "physicalPages" : {
+      "internal" : [
+        90,
+        1966
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 124,
+    "cpuTime" : 60.241249000000003,
+    "name" : "chronod",
+    "lifetimeMax" : 2204
+  },
+  {
+    "uuid" : "350bfda3-9435-38c1-8ecb-b078bf243c55",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800554017742,
+    "fds" : 25,
+    "coalition" : 214,
+    "csTrustLevel" : 9,
+    "rpages" : 393,
+    "priority" : 40,
+    "mem_regions" : 99,
+    "physicalPages" : {
+      "internal" : [
+        73,
+        315
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 139,
+    "cpuTime" : 62.060371000000004,
+    "name" : "wirelessinsightsd",
+    "lifetimeMax" : 442
+  },
+  {
+    "uuid" : "c21ae233-2f9c-3920-b881-43aa87eb09f0",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 324092514,
+    "fds" : 64,
+    "coalition" : 683,
+    "csTrustLevel" : 9,
+    "rpages" : 843,
+    "priority" : 40,
+    "mem_regions" : 120,
+    "physicalPages" : {
+      "internal" : [
+        740,
+        76
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7489,
+    "cpuTime" : 1.8352900000000001,
+    "name" : "mediaanalysisd-generation",
+    "lifetimeMax" : 17678
+  },
+  {
+    "uuid" : "2d6db1f9-77da-3412-b9f5-4e79e2cd5ed8",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596653324,
+    "fds" : 25,
+    "coalition" : 90,
+    "csTrustLevel" : 9,
+    "rpages" : 251,
+    "priority" : 40,
+    "mem_regions" : 79,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        232
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 75,
+    "cpuTime" : 168.97445500000001,
+    "name" : "aonsensed",
+    "lifetimeMax" : 260
+  },
+  {
+    "uuid" : "bd132a6c-10ae-3f1c-a24a-fc481a10a04d",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596707640,
+    "fds" : 128,
+    "coalition" : 80,
+    "csTrustLevel" : 9,
+    "rpages" : 525,
+    "priority" : 40,
+    "mem_regions" : 180,
+    "physicalPages" : {
+      "internal" : [
+        116,
+        412
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 70,
+    "cpuTime" : 85.332336999999995,
+    "name" : "contextstored",
+    "lifetimeMax" : 578
+  },
+  {
+    "uuid" : "e48bb2c7-3b19-3560-adb8-f0f3b24d5e80",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9795553018245,
+    "fds" : 25,
+    "coalition" : 874,
+    "csTrustLevel" : 9,
+    "rpages" : 310,
+    "priority" : 40,
+    "mem_regions" : 520,
+    "physicalPages" : {
+      "internal" : [
+        39,
+        260
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 648,
+    "cpuTime" : 53.902704,
+    "name" : "videocodecd",
+    "lifetimeMax" : 6477
+  },
+  {
+    "uuid" : "49235818-ae83-3812-afb7-06d75c9ba60f",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 958584120,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800557934541,
+    "fds" : 64,
+    "coalition" : 210,
+    "csTrustLevel" : 9,
+    "rpages" : 1155,
+    "priority" : 40,
+    "mem_regions" : 286,
+    "physicalPages" : {
+      "internal" : [
+        500,
+        938
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 136,
+    "cpuTime" : 951.18758400000002,
+    "name" : "cloudd",
+    "lifetimeMax" : 1451
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 145,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        128
+      ]
+    },
+    "mem_regions" : 68,
+    "uuid" : "6430c256-c6ee-318e-8a66-ec28e1ebb0fe",
+    "fds" : 25,
+    "name" : "proactiveeventtrackerd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.047187,
+    "freeze_skip_reason:" : "none",
+    "age" : 6036726,
+    "coalition" : 1184,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7494,
+    "lifetimeMax" : 154,
+    "killDelta" : 544436309
+  },
+  {
+    "uuid" : "60665de8-6031-3218-94fe-8008e6603485",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596510575,
+    "fds" : 64,
+    "coalition" : 114,
+    "csTrustLevel" : 9,
+    "rpages" : 819,
+    "priority" : 40,
+    "mem_regions" : 137,
+    "physicalPages" : {
+      "internal" : [
+        586,
+        226
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 87,
+    "cpuTime" : 1328.2779459999999,
+    "name" : "dasd",
+    "lifetimeMax" : 1037
+  },
+  {
+    "uuid" : "b84390e5-4200-3bfc-8154-5570b9d0c19f",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596323374,
+    "fds" : 25,
+    "coalition" : 154,
+    "csTrustLevel" : 9,
+    "rpages" : 115,
+    "priority" : 70,
+    "mem_regions" : 62,
+    "physicalPages" : {
+      "internal" : [
+        0,
+        104
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 107,
+    "cpuTime" : 0.042118000000000003,
+    "name" : "IOMFB_bics_daemon",
+    "lifetimeMax" : 118
+  },
+  {
+    "uuid" : "ff7971d6-56a3-3a9c-a390-8a05989b75a2",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 6377796,
+    "fds" : 25,
+    "coalition" : 250,
+    "csTrustLevel" : 9,
+    "rpages" : 168,
+    "priority" : 70,
+    "mem_regions" : 70,
+    "physicalPages" : {
+      "internal" : [
+        153,
+        0
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7493,
+    "cpuTime" : 0.072086999999999998,
+    "name" : "coreduetd",
+    "lifetimeMax" : 168
+  },
+  {
+    "uuid" : "dabbbd46-eebd-3e1b-b69e-497b11d9e3cf",
+    "states" : [
+      "suspended"
+    ],
+    "idleDelta" : 9441210188,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9799604500765,
+    "fds" : 50,
+    "coalition" : 651,
+    "csTrustLevel" : 9,
+    "rpages" : 873,
+    "priority" : 75,
+    "mem_regions" : 161,
+    "physicalPages" : {
+      "internal" : [
+        0,
+        852
+      ],
+      "frozen_to_swap_pages" : 626
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 447,
+    "cpuTime" : 0.32328600000000002,
+    "name" : "Spotlight",
+    "lifetimeMax" : 933
+  },
+  {
+    "uuid" : "7d43b81d-dca7-3cb8-a9cd-684e2c577d81",
+    "states" : [
+      "suspended"
+    ],
+    "idleDelta" : 181529589,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9742683630931,
+    "fds" : 50,
+    "coalition" : 1046,
+    "csTrustLevel" : 9,
+    "rpages" : 3321,
+    "priority" : 75,
+    "mem_regions" : 401,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        3267
+      ],
+      "frozen_to_swap_pages" : 2956
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 973,
+    "cpuTime" : 2.6833990000000001,
+    "name" : "Preferences",
+    "lifetimeMax" : 3322
+  },
+  {
+    "uuid" : "3ca0b1b9-a95e-36c6-b758-85ffc55d2ca9",
+    "states" : [
+      "suspended"
+    ],
+    "idleDelta" : 3141514139,
+    "csFlags" : 570434309,
+    "purgeable" : 0,
+    "age" : 4397754702473,
+    "fds" : 50,
+    "coalition" : 2293,
+    "csTrustLevel" : 4,
+    "rpages" : 3536,
+    "priority" : 75,
+    "mem_regions" : 237,
+    "physicalPages" : {
+      "internal" : [
+        0,
+        3513
+      ],
+      "frozen_to_swap_pages" : 2759
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 4830,
+    "cpuTime" : 16.472147,
+    "name" : "SmartCall",
+    "lifetimeMax" : 3584
+  },
+  {
+    "uuid" : "e0289b56-82aa-3049-86dd-83c74e33a758",
+    "states" : [
+      "suspended"
+    ],
+    "idleDelta" : 3909149817,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 1454258197495,
+    "fds" : 50,
+    "coalition" : 2865,
+    "csTrustLevel" : 9,
+    "rpages" : 1147,
+    "priority" : 75,
+    "mem_regions" : 116,
+    "physicalPages" : {
+      "internal" : [
+        0,
+        1129
+      ],
+      "frozen_to_swap_pages" : 841
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 6502,
+    "cpuTime" : 0.69889000000000001,
+    "name" : "InCallService",
+    "lifetimeMax" : 1147
+  },
+  {
+    "uuid" : "303e5dbd-9b51-37e7-a8db-e621efd2317b",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 1627591262650,
+    "fds" : 25,
+    "coalition" : 118,
+    "csTrustLevel" : 9,
+    "rpages" : 1301,
+    "priority" : 90,
+    "mem_regions" : 96,
+    "physicalPages" : {
+      "internal" : [
+        136,
+        398
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 6336,
+    "cpuTime" : 9.8724150000000002,
+    "name" : "ptpd",
+    "lifetimeMax" : 1371
+  },
+  {
+    "uuid" : "99c6cae1-66be-380b-9dd5-948c4dd2eec2",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9798642901046,
+    "fds" : 50,
+    "coalition" : 766,
+    "csTrustLevel" : 9,
+    "rpages" : 1124,
+    "priority" : 90,
+    "mem_regions" : 143,
+    "physicalPages" : {
+      "internal" : [
+        30,
+        1084
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 542,
+    "cpuTime" : 8.9904779999999995,
+    "name" : "kbd",
+    "lifetimeMax" : 1139
+  },
+  {
+    "uuid" : "43fbb667-3630-38bd-9648-17ef610cdb3a",
+    "states" : [
+      "active",
+      "frontmost"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800134822646,
+    "fds" : 50,
+    "coalition" : 300,
+    "csTrustLevel" : 9,
+    "rpages" : 885,
+    "priority" : 100,
+    "mem_regions" : 88,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        862
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 346,
+    "cpuTime" : 18.088605999999999,
+    "name" : "InputUI",
+    "lifetimeMax" : 901
+  },
+  {
+    "uuid" : "09bb4398-e00d-34e2-99ff-d66c726f346a",
+    "states" : [
+      "suspended",
+      "active",
+      "frontmost"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800098754991,
+    "fds" : 128,
+    "coalition" : 12,
+    "csTrustLevel" : 9,
+    "rpages" : 2456,
+    "priority" : 100,
+    "mem_regions" : 330,
+    "physicalPages" : {
+      "internal" : [
+        7,
+        1861
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 358,
+    "cpuTime" : 8.731878,
+    "name" : "AegirPoster",
+    "lifetimeMax" : 4386
+  },
+  {
+    "uuid" : "6cb10981-e094-32d5-be55-ff482ad7ab99",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9799615730752,
+    "fds" : 25,
+    "coalition" : 646,
+    "csTrustLevel" : 9,
+    "rpages" : 150,
+    "priority" : 110,
+    "mem_regions" : 63,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        136
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 443,
+    "cpuTime" : 0.20974200000000001,
+    "name" : "notification_proxy",
+    "lifetimeMax" : 163
+  },
+  {
+    "uuid" : "dde9a0eb-72dd-3376-a7b5-4ebca9420f73",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 331233378,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 5654585929470,
+    "fds" : 25,
+    "coalition" : 1610,
+    "csTrustLevel" : 9,
+    "rpages" : 160,
+    "priority" : 110,
+    "mem_regions" : 61,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        146
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 4015,
+    "cpuTime" : 0.214834,
+    "name" : "companion_proxy",
+    "lifetimeMax" : 168
+  },
+  {
+    "uuid" : "ef4c35ca-e726-3fd4-9782-0c4997ff30fb",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596388926,
+    "fds" : 64,
+    "coalition" : 142,
+    "csTrustLevel" : 9,
+    "rpages" : 844,
+    "priority" : 120,
+    "mem_regions" : 186,
+    "physicalPages" : {
+      "internal" : [
+        314,
+        591
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 101,
+    "cpuTime" : 5966.4811129999998,
+    "name" : "bluetoothd",
+    "lifetimeMax" : 1052
+  },
+  {
+    "uuid" : "315b9ba9-eb0a-30cd-9b5d-b28fc41abdb1",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 8213461909,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 6067383630354,
+    "fds" : 25,
+    "coalition" : 573,
+    "csTrustLevel" : 9,
+    "rpages" : 180,
+    "priority" : 120,
+    "mem_regions" : 61,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        165
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 3773,
+    "cpuTime" : 1.2872699999999999,
+    "name" : "BTLEServer",
+    "lifetimeMax" : 187
+  },
+  {
+    "uuid" : "277dc095-cfbe-3370-bd0f-aa0e69661fd3",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800571309371,
+    "fds" : 50,
+    "coalition" : 190,
+    "csTrustLevel" : 9,
+    "rpages" : 177,
+    "priority" : 120,
+    "mem_regions" : 65,
+    "physicalPages" : {
+      "internal" : [
+        58,
+        106
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 126,
+    "cpuTime" : 9.7352430000000005,
+    "name" : "systemstatusd",
+    "lifetimeMax" : 188
+  },
+  {
+    "uuid" : "aa12239b-8623-3c0f-86bd-744dbf187cec",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596465426,
+    "fds" : 25,
+    "coalition" : 122,
+    "csTrustLevel" : 9,
+    "rpages" : 423,
+    "priority" : 140,
+    "mem_regions" : 79,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        405
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 91,
+    "cpuTime" : 11.303296,
+    "name" : "lockdownd",
+    "lifetimeMax" : 440
+  },
+  {
+    "uuid" : "dc38ff73-b011-33d3-8ebf-074cdfe22271",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596846827,
+    "fds" : 64,
+    "coalition" : 52,
+    "csTrustLevel" : 9,
+    "rpages" : 861,
+    "priority" : 140,
+    "mem_regions" : 703,
+    "physicalPages" : {
+      "internal" : [
+        413,
+        439
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 56,
+    "cpuTime" : 2539.7138970000001,
+    "name" : "wifid",
+    "lifetimeMax" : 1024
+  },
+  {
+    "uuid" : "83860fdb-5af4-34e8-95eb-a6aee22e4914",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596406955,
+    "fds" : 64,
+    "coalition" : 138,
+    "csTrustLevel" : 9,
+    "rpages" : 640,
+    "priority" : 140,
+    "mem_regions" : 425,
+    "physicalPages" : {
+      "internal" : [
+        200,
+        437
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 99,
+    "cpuTime" : 1326.1794480000001,
+    "name" : "rapportd",
+    "lifetimeMax" : 679
+  },
+  {
+    "uuid" : "c78947f3-c584-3ccc-915b-1de944c35b9d",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596768387,
+    "fds" : 25,
+    "coalition" : 70,
+    "csTrustLevel" : 9,
+    "rpages" : 292,
+    "priority" : 140,
+    "mem_regions" : 82,
+    "physicalPages" : {
+      "internal" : [
+        97,
+        179
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 65,
+    "cpuTime" : 29.801068000000001,
+    "name" : "nfcd",
+    "lifetimeMax" : 307
+  },
+  {
+    "uuid" : "0095e3cc-5ad9-3cdc-b649-324480cfa7f3",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800504888109,
+    "fds" : 25,
+    "coalition" : 314,
+    "csTrustLevel" : 9,
+    "rpages" : 126,
+    "priority" : 140,
+    "mem_regions" : 61,
+    "physicalPages" : {
+      "internal" : [
+        7,
+        108
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 192,
+    "cpuTime" : 13.783918,
+    "name" : "SCHelper",
+    "lifetimeMax" : 141
+  },
+  {
+    "uuid" : "a4860729-aec1-3241-abe0-0b82b0ace492",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800545365339,
+    "fds" : 64,
+    "coalition" : 236,
+    "csTrustLevel" : 9,
+    "rpages" : 476,
+    "priority" : 140,
+    "mem_regions" : 257,
+    "physicalPages" : {
+      "internal" : [
+        274,
+        212
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 150,
+    "cpuTime" : 497.32676500000002,
+    "name" : "symptomsd",
+    "lifetimeMax" : 502
+  },
+  {
+    "uuid" : "261f91f3-7016-35a2-9a84-c85d2b6a834e",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 2527199499,
+    "csFlags" : 570436361,
+    "purgeable" : 0,
+    "age" : 9800528664974,
+    "fds" : 64,
+    "coalition" : 274,
+    "csTrustLevel" : 9,
+    "rpages" : 159,
+    "priority" : 140,
+    "mem_regions" : 71,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        144
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 171,
+    "cpuTime" : 1.063029,
+    "name" : "cryptexd",
+    "lifetimeMax" : 183
+  },
+  {
+    "uuid" : "d3f03707-c9cf-3291-810f-dd6cb2905d89",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596634840,
+    "fds" : 25,
+    "coalition" : 94,
+    "csTrustLevel" : 9,
+    "rpages" : 942,
+    "priority" : 140,
+    "mem_regions" : 283,
+    "physicalPages" : {
+      "internal" : [
+        299,
+        662
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 77,
+    "cpuTime" : 2155.8008570000002,
+    "name" : "sharingd",
+    "lifetimeMax" : 1027
+  },
+  {
+    "uuid" : "f09ca68a-977f-3cd1-84f1-73a267ee3596",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 411859922,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596922080,
+    "fds" : 64,
+    "coalition" : 34,
+    "csTrustLevel" : 9,
+    "rpages" : 1267,
+    "priority" : 140,
+    "mem_regions" : 317,
+    "physicalPages" : {
+      "internal" : [
+        88,
+        1332
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 47,
+    "cpuTime" : 1487.0038300000001,
+    "name" : "healthd",
+    "lifetimeMax" : 1890
+  },
+  {
+    "uuid" : "2b393580-54e4-30eb-b8f9-fbbaf0de8174",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 10370371514,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800392612053,
+    "fds" : 25,
+    "coalition" : 460,
+    "csTrustLevel" : 9,
+    "rpages" : 219,
+    "priority" : 140,
+    "mem_regions" : 102,
+    "physicalPages" : {
+      "internal" : [
+        85,
+        120
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 290,
+    "cpuTime" : 17.754466000000001,
+    "name" : "aned",
+    "lifetimeMax" : 288
+  },
+  {
+    "uuid" : "b3f36577-c4a2-3960-85ab-9d801b3f2c73",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 17690920313,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800502378928,
+    "fds" : 25,
+    "coalition" : 320,
+    "csTrustLevel" : 9,
+    "rpages" : 330,
+    "priority" : 140,
+    "mem_regions" : 79,
+    "physicalPages" : {
+      "internal" : [
+        73,
+        224
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 196,
+    "cpuTime" : 1.8951419999999999,
+    "name" : "accessoryd",
+    "lifetimeMax" : 348
+  },
+  {
+    "uuid" : "d08bca42-76f2-34ea-823f-68fd1bbf4460",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 1358466252092,
+    "fds" : 25,
+    "coalition" : 2917,
+    "csTrustLevel" : 8,
+    "rpages" : 389,
+    "priority" : 140,
+    "mem_regions" : 99,
+    "physicalPages" : {
+      "internal" : [
+        81,
+        295
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 6614,
+    "cpuTime" : 12.639759,
+    "name" : "testmanagerd",
+    "lifetimeMax" : 879
+  },
+  {
+    "uuid" : "4264e80c-4745-31f8-8f2e-86a112f1aa21",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 13231677834,
+    "csFlags" : 570434305,
+    "purgeable" : 16,
+    "age" : 1122135293883,
+    "fds" : 64,
+    "coalition" : 342,
+    "csTrustLevel" : 9,
+    "rpages" : 1183,
+    "priority" : 140,
+    "mem_regions" : 227,
+    "physicalPages" : {
+      "internal" : [
+        270,
+        1149
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 6800,
+    "cpuTime" : 32.741480000000003,
+    "name" : "assetsd",
+    "lifetimeMax" : 1749
+  },
+  {
+    "uuid" : "d11741b1-81fa-3339-8264-03d0e7027d41",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 150248716,
+    "csFlags" : 570434305,
+    "purgeable" : 8,
+    "age" : 9800577422293,
+    "fds" : 25,
+    "coalition" : 176,
+    "csTrustLevel" : 9,
+    "rpages" : 324,
+    "priority" : 140,
+    "mem_regions" : 79,
+    "physicalPages" : {
+      "internal" : [
+        116,
+        251
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 119,
+    "cpuTime" : 121.27058100000001,
+    "name" : "analyticsd",
+    "lifetimeMax" : 424
+  },
+  {
+    "uuid" : "ae39df29-889f-3c3c-ac8c-af63eb62f183",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596691137,
+    "fds" : 25,
+    "coalition" : 82,
+    "csTrustLevel" : 9,
+    "rpages" : 799,
+    "priority" : 140,
+    "mem_regions" : 801,
+    "physicalPages" : {
+      "internal" : [
+        87,
+        689
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 71,
+    "cpuTime" : 131.87330800000001,
+    "name" : "cameracaptured",
+    "lifetimeMax" : 1836
+  },
+  {
+    "uuid" : "14a5890b-777a-3842-b6e2-5e5f3792032c",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596645516,
+    "fds" : 25,
+    "coalition" : 92,
+    "csTrustLevel" : 9,
+    "rpages" : 240,
+    "priority" : 140,
+    "mem_regions" : 88,
+    "physicalPages" : {
+      "internal" : [
+        9,
+        218
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 76,
+    "cpuTime" : 19.634243999999999,
+    "name" : "timed",
+    "lifetimeMax" : 247
+  },
+  {
+    "uuid" : "f5f0c45d-de26-3e4c-8894-588a3cc3936c",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596565371,
+    "fds" : 64,
+    "coalition" : 104,
+    "csTrustLevel" : 9,
+    "rpages" : 1263,
+    "priority" : 140,
+    "mem_regions" : 884,
+    "physicalPages" : {
+      "internal" : [
+        135,
+        1135
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 82,
+    "cpuTime" : 79.494529999999997,
+    "name" : "imagent",
+    "lifetimeMax" : 1352
+  },
+  {
+    "uuid" : "49d328c8-6518-3070-9582-300424647bb0",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800563378677,
+    "fds" : 25,
+    "coalition" : 204,
+    "csTrustLevel" : 9,
+    "rpages" : 331,
+    "priority" : 140,
+    "mem_regions" : 72,
+    "physicalPages" : {
+      "internal" : [
+        41,
+        275
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 133,
+    "cpuTime" : 71.378439999999998,
+    "name" : "lsd",
+    "lifetimeMax" : 748
+  },
+  {
+    "uuid" : "72af5a73-b413-302b-9a72-23e961ef1604",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800517147942,
+    "fds" : 25,
+    "coalition" : 294,
+    "csTrustLevel" : 9,
+    "rpages" : 278,
+    "priority" : 140,
+    "mem_regions" : 76,
+    "physicalPages" : {
+      "internal" : [
+        98,
+        175
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 182,
+    "cpuTime" : 18.36308,
+    "name" : "biometrickitd",
+    "lifetimeMax" : 298
+  },
+  {
+    "uuid" : "e8974c2b-615e-38b1-8dc1-6f058b313476",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800555790610,
+    "fds" : 25,
+    "coalition" : 212,
+    "csTrustLevel" : 9,
+    "rpages" : 397,
+    "priority" : 140,
+    "mem_regions" : 135,
+    "physicalPages" : {
+      "internal" : [
+        101,
+        301
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 137,
+    "cpuTime" : 123.28923899999999,
+    "name" : "apsd",
+    "lifetimeMax" : 447
+  },
+  {
+    "uuid" : "1479ae4d-23f4-32da-85f6-82c2a31afb7f",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596616177,
+    "fds" : 128,
+    "coalition" : 98,
+    "csTrustLevel" : 9,
+    "rpages" : 1504,
+    "priority" : 140,
+    "mem_regions" : 240,
+    "physicalPages" : {
+      "internal" : [
+        651,
+        844
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 79,
+    "cpuTime" : 3504.3129869999998,
+    "name" : "locationd",
+    "lifetimeMax" : 1622
+  },
+  {
+    "uuid" : "3952fa41-5a9f-3a12-ac3a-fbeea80ca7f3",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596887243,
+    "fds" : 25,
+    "coalition" : 42,
+    "csTrustLevel" : 9,
+    "rpages" : 312,
+    "priority" : 140,
+    "mem_regions" : 83,
+    "physicalPages" : {
+      "internal" : [
+        119,
+        180
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 51,
+    "cpuTime" : 240.58838600000001,
+    "name" : "powerd",
+    "lifetimeMax" : 346
+  },
+  {
+    "uuid" : "432dad40-c3c6-3038-83ed-db08c8477597",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596862659,
+    "fds" : 25,
+    "coalition" : 48,
+    "csTrustLevel" : 9,
+    "rpages" : 365,
+    "priority" : 140,
+    "mem_regions" : 87,
+    "physicalPages" : {
+      "internal" : [
+        163,
+        189
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 54,
+    "cpuTime" : 472.39725800000002,
+    "name" : "WirelessRadioManagerd",
+    "lifetimeMax" : 412
+  },
+  {
+    "uuid" : "9ceffc3a-432b-3735-8564-8feb4550ac95",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570499841,
+    "purgeable" : 6,
+    "age" : 9800581161810,
+    "fds" : 128,
+    "coalition" : 166,
+    "csTrustLevel" : 9,
+    "rpages" : 242,
+    "priority" : 140,
+    "mem_regions" : 157,
+    "physicalPages" : {
+      "internal" : [
+        146,
+        202
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 113,
+    "cpuTime" : 460.80909600000001,
+    "name" : "cfprefsd",
+    "lifetimeMax" : 326
+  },
+  {
+    "uuid" : "2071bb92-64c7-3fa0-a987-2d4d40876c46",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596758112,
+    "fds" : 128,
+    "coalition" : 72,
+    "csTrustLevel" : 9,
+    "rpages" : 1096,
+    "priority" : 140,
+    "mem_regions" : 900,
+    "physicalPages" : {
+      "internal" : [
+        457,
+        664
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 66,
+    "cpuTime" : 251.51199299999999,
+    "name" : "identityservicesd",
+    "lifetimeMax" : 1240
+  },
+  {
+    "uuid" : "4ad07c56-f230-3e25-8a6b-136dee047d76",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800579810711,
+    "fds" : 25,
+    "coalition" : 172,
+    "csTrustLevel" : 9,
+    "rpages" : 2701,
+    "priority" : 140,
+    "mem_regions" : 1715,
+    "physicalPages" : {
+      "internal" : [
+        443,
+        2089
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 117,
+    "cpuTime" : 681.40535499999999,
+    "name" : "audiomxd",
+    "lifetimeMax" : 3695
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 639,
+    "physicalPages" : {
+      "internal" : [
+        17,
+        632
+      ]
+    },
+    "mem_regions" : 156,
+    "uuid" : "df28312c-183a-3496-bf94-3992e6c018bd",
+    "fds" : 25,
+    "name" : "mobileassetd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 553.98429299999998,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 202683066,
+    "age" : 8301029410926,
+    "coalition" : 184,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 2013,
+    "lifetimeMax" : 1135,
+    "killDelta" : 1433403971
+  },
+  {
+    "uuid" : "2f3083e3-0a1e-33a9-8062-3d2fd0de3ba5",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800516977964,
+    "fds" : 64,
+    "coalition" : 296,
+    "csTrustLevel" : 9,
+    "rpages" : 416,
+    "priority" : 140,
+    "mem_regions" : 565,
+    "physicalPages" : {
+      "internal" : [
+        172,
+        244
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 183,
+    "cpuTime" : 409.09887300000003,
+    "name" : "mDNSResponder",
+    "lifetimeMax" : 438
+  },
+  {
+    "uuid" : "9ceffc3a-432b-3735-8564-8feb4550ac95",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570499841,
+    "purgeable" : 0,
+    "age" : 9800581410899,
+    "fds" : 25,
+    "coalition" : 164,
+    "csTrustLevel" : 9,
+    "rpages" : 189,
+    "priority" : 140,
+    "mem_regions" : 74,
+    "physicalPages" : {
+      "internal" : [
+        108,
+        71
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 112,
+    "cpuTime" : 75.693724000000003,
+    "name" : "cfprefsd",
+    "lifetimeMax" : 195
+  },
+  {
+    "uuid" : "031a58af-2572-3603-8087-204b0e04d308",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800571427917,
+    "fds" : 25,
+    "coalition" : 188,
+    "csTrustLevel" : 9,
+    "rpages" : 1333,
+    "priority" : 150,
+    "mem_regions" : 736,
+    "physicalPages" : {
+      "internal" : [
+        1115,
+        340
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 125,
+    "cpuTime" : 2001.5957519999999,
+    "name" : "com.apple.DriverKit-AppleBCMWLAN",
+    "lifetimeMax" : 1391
+  },
+  {
+    "uuid" : "2987f1aa-53e0-3089-96aa-fadd4cf7384d",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596839177,
+    "fds" : 128,
+    "coalition" : 54,
+    "csTrustLevel" : 9,
+    "rpages" : 208,
+    "priority" : 150,
+    "mem_regions" : 76,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        193
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 57,
+    "cpuTime" : 20.419481999999999,
+    "name" : "remoted",
+    "lifetimeMax" : 213
+  },
+  {
+    "uuid" : "ad937fb7-2664-3b8f-b1c9-34c4ad4092d2",
+    "states" : [
+      "frontmost"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800458165767,
+    "fds" : 256,
+    "coalition" : 12,
+    "csTrustLevel" : 9,
+    "rpages" : 7905,
+    "priority" : 160,
+    "mem_regions" : 1034,
+    "physicalPages" : {
+      "internal" : [
+        1086,
+        6695
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 225,
+    "cpuTime" : 864.01270499999998,
+    "name" : "SpringBoard",
+    "lifetimeMax" : 9731
+  },
+  {
+    "uuid" : "bfd04cd7-a5f5-314c-9470-3494b9177e03",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596666549,
+    "fds" : 25,
+    "coalition" : 86,
+    "csTrustLevel" : 9,
+    "rpages" : 6167,
+    "priority" : 170,
+    "mem_regions" : 1018,
+    "physicalPages" : {
+      "internal" : [
+        526,
+        4270
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 73,
+    "cpuTime" : 2070.5196879999999,
+    "name" : "backboardd",
+    "lifetimeMax" : 11265
+  },
+  {
+    "uuid" : "f91f4272-99d8-3886-908e-1b2910097f1e",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596344169,
+    "fds" : 25,
+    "coalition" : 150,
+    "csTrustLevel" : 9,
+    "rpages" : 311,
+    "priority" : 180,
+    "mem_regions" : 72,
+    "physicalPages" : {
+      "internal" : [
+        127,
+        174
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 105,
+    "cpuTime" : 100.99541499999999,
+    "name" : "fseventsd",
+    "lifetimeMax" : 450
+  },
+  {
+    "uuid" : "676e2d0f-4c04-31c5-99f8-86778f646bb2",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596723266,
+    "fds" : 25,
+    "coalition" : 78,
+    "csTrustLevel" : 9,
+    "rpages" : 176,
+    "priority" : 180,
+    "mem_regions" : 69,
+    "physicalPages" : {
+      "internal" : [
+        91,
+        73
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 69,
+    "cpuTime" : 383.31248699999998,
+    "name" : "thermalmonitord",
+    "lifetimeMax" : 184
+  },
+  {
+    "uuid" : "bc804ae6-724f-3415-a0c9-1aac594ea7b1",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596371618,
+    "fds" : 25,
+    "coalition" : 146,
+    "csTrustLevel" : 9,
+    "rpages" : 203,
+    "priority" : 180,
+    "mem_regions" : 69,
+    "physicalPages" : {
+      "internal" : [
+        69,
+        122
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 103,
+    "cpuTime" : 7.0954699999999997,
+    "name" : "fairplayd.H2",
+    "lifetimeMax" : 209
+  },
+  {
+    "uuid" : "efaf0eb5-58e3-3d75-98cb-a93a064af511",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800597051823,
+    "fds" : 25,
+    "coalition" : 10,
+    "csTrustLevel" : 9,
+    "rpages" : 676,
+    "priority" : 180,
+    "mem_regions" : 878,
+    "physicalPages" : {
+      "internal" : [
+        472,
+        612
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 35,
+    "cpuTime" : 1210.7783449999999,
+    "name" : "logd",
+    "lifetimeMax" : 750
+  },
+  {
+    "uuid" : "f3ebcec9-4a66-35d4-826f-869fdeecb482",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 2717920001,
+    "purgeable" : 0,
+    "age" : 9800596995696,
+    "fds" : 25,
+    "coalition" : 14,
+    "csTrustLevel" : 9,
+    "rpages" : 676,
+    "priority" : 180,
+    "mem_regions" : 90,
+    "physicalPages" : {
+      "internal" : [
+        444,
+        212
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 36,
+    "cpuTime" : 415.58035799999999,
+    "name" : "runningboardd",
+    "lifetimeMax" : 1117
+  },
+  {
+    "uuid" : "798d77d8-7167-3c5a-9267-2fd6c22d347b",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800211714535,
+    "fds" : 25,
+    "coalition" : 511,
+    "csTrustLevel" : 9,
+    "rpages" : 212,
+    "priority" : 180,
+    "mem_regions" : 62,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        197
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 326,
+    "cpuTime" : 0.79537199999999997,
+    "name" : "fskitd",
+    "lifetimeMax" : 288
+  },
+  {
+    "uuid" : "5f131177-2689-3de4-a41d-620e8b56664b",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 2717920001,
+    "purgeable" : 0,
+    "age" : 9800148859562,
+    "fds" : 25,
+    "coalition" : 523,
+    "csTrustLevel" : 9,
+    "rpages" : 169,
+    "priority" : 180,
+    "mem_regions" : 67,
+    "physicalPages" : {
+      "internal" : [
+        17,
+        139
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 334,
+    "cpuTime" : 1.395097,
+    "name" : "filecoordinationd",
+    "lifetimeMax" : 181
+  },
+  {
+    "uuid" : "2b2a407f-7217-30a2-9067-6dafc56e46ed",
+    "states" : [
+      "active"
+    ],
+    "idleDelta" : 303865529,
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596748530,
+    "fds" : 64,
+    "coalition" : 74,
+    "csTrustLevel" : 9,
+    "rpages" : 390,
+    "priority" : 180,
+    "mem_regions" : 422,
+    "physicalPages" : {
+      "internal" : [
+        196,
+        249
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 67,
+    "cpuTime" : 1573.674949,
+    "name" : "remotepairingdeviced",
+    "lifetimeMax" : 547
+  },
+  {
+    "uuid" : "2a44073d-e8be-347f-99d8-70d8c364269a",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570438401,
+    "purgeable" : 0,
+    "age" : 9800599335712,
+    "fds" : 1024,
+    "coalition" : 6,
+    "csTrustLevel" : 9,
+    "rpages" : 725,
+    "priority" : 180,
+    "mem_regions" : 220,
+    "physicalPages" : {
+      "internal" : [
+        338,
+        365
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 33,
+    "cpuTime" : 705.55962699999998,
+    "name" : "UserEventAgent",
+    "lifetimeMax" : 770
+  },
+  {
+    "uuid" : "9611cbf9-b2e6-3590-8162-0e98d0144a8d",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596307914,
+    "fds" : 25,
+    "coalition" : 158,
+    "csTrustLevel" : 9,
+    "rpages" : 165,
+    "priority" : 180,
+    "mem_regions" : 67,
+    "physicalPages" : {
+      "internal" : [
+        70,
+        85
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 109,
+    "cpuTime" : 10.722492000000001,
+    "name" : "distnoted",
+    "lifetimeMax" : 228
+  },
+  {
+    "uuid" : "68cfd6f4-a312-3e82-858e-c83fe0ac2e3c",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596777851,
+    "fds" : 25,
+    "coalition" : 68,
+    "csTrustLevel" : 9,
+    "rpages" : 150,
+    "priority" : 180,
+    "mem_regions" : 61,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        136
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 64,
+    "cpuTime" : 29.752967000000002,
+    "name" : "watchdogd",
+    "lifetimeMax" : 155
+  },
+  {
+    "uuid" : "1130f6d0-7d43-3864-8e96-b2dcf67201f0",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 4145971113192,
+    "fds" : 25,
+    "coalition" : 124,
+    "csTrustLevel" : 9,
+    "rpages" : 974,
+    "priority" : 180,
+    "mem_regions" : 104,
+    "physicalPages" : {
+      "internal" : [
+        258,
+        727
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 4972,
+    "cpuTime" : 917.56717200000003,
+    "name" : "PerfPowerServices",
+    "lifetimeMax" : 1123
+  },
+  {
+    "uuid" : "af5a0610-7149-3c8f-a768-cccde3b51046",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596912496,
+    "fds" : 64,
+    "coalition" : 36,
+    "csTrustLevel" : 9,
+    "rpages" : 272,
+    "priority" : 180,
+    "mem_regions" : 97,
+    "physicalPages" : {
+      "internal" : [
+        37,
+        221
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 48,
+    "cpuTime" : 94.653233,
+    "name" : "configd",
+    "lifetimeMax" : 319
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 208,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        190
+      ]
+    },
+    "mem_regions" : 62,
+    "uuid" : "542f3c6a-85a5-3dd4-a682-16e657910c1f",
+    "fds" : 25,
+    "name" : "intelligencecontextd",
+    "priority" : 0,
+    "csTrustLevel" : 0,
+    "cpuTime" : 0,
+    "freeze_skip_reason:" : "none",
+    "age" : 392575,
+    "coalition" : 360,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7496,
+    "lifetimeMax" : 280,
+    "killDelta" : 544396012
+  },
+  {
+    "uuid" : "3e3091d1-178e-3f0b-99da-5382317ea990",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596360956,
+    "fds" : 64,
+    "coalition" : 148,
+    "csTrustLevel" : 9,
+    "rpages" : 892,
+    "priority" : 190,
+    "mem_regions" : 806,
+    "physicalPages" : {
+      "internal" : [
+        253,
+        630
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 104,
+    "cpuTime" : 336.05892699999998,
+    "name" : "CommCenter",
+    "lifetimeMax" : 1750
+  },
+  {
+    "uuid" : "602e4459-f1c2-34ac-9fc1-46527ccddc79",
+    "states" : [
+      "daemon"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800596293604,
+    "fds" : 25,
+    "coalition" : 160,
+    "csTrustLevel" : 9,
+    "rpages" : 308,
+    "priority" : 200,
+    "mem_regions" : 344,
+    "physicalPages" : {
+      "internal" : [
+        243,
+        54
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 110,
+    "cpuTime" : 122.927695,
+    "name" : "notifyd",
+    "lifetimeMax" : 343
+  },
+  {
+    "uuid" : "542f3c6a-85a5-3dd4-a682-16e657910c1f",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570499841,
+    "purgeable" : 0,
+    "age" : 392575,
+    "fds" : 50,
+    "coalition" : 360,
+    "csTrustLevel" : 9,
+    "rpages" : 58,
+    "priority" : 210,
+    "mem_regions" : 51,
+    "physicalPages" : {
+      "internal" : [
+        48,
+        0
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 7496,
+    "cpuTime" : 0.0052180000000000004,
+    "name" : "xpcproxy",
+    "lifetimeMax" : 60
+  },
+  {
+    "uuid" : "ca54230d-4005-3131-8dc3-ccb7e7ef18e6",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 570434305,
+    "purgeable" : 0,
+    "age" : 9800711818357,
+    "fds" : 128,
+    "coalition" : 3,
+    "csTrustLevel" : 9,
+    "rpages" : 1437,
+    "priority" : 999,
+    "mem_regions" : 1107,
+    "physicalPages" : {
+      "internal" : [
+        792,
+        632
+      ]
+    },
+    "freeze_skip_reason:" : "none",
+    "pid" : 1,
+    "cpuTime" : 539.35378600000001,
+    "name" : "launchd",
+    "lifetimeMax" : 1468
+  },
+  {
+    "uuid" : "00000000-0000-0000-0000-000000000000",
+    "states" : [
+      "active"
+    ],
+    "csFlags" : 1,
+    "purgeable" : 0,
+    "age" : 9800711929471,
+    "fds" : 0,
+    "coalition" : 3,
+    "csTrustLevel" : 0,
+    "rpages" : 10784,
+    "priority" : 999,
+    "mem_regions" : 1518,
+    "freeze_skip_reason:" : "none",
+    "pid" : 0,
+    "cpuTime" : 14345.568121,
+    "name" : "kernel_task",
+    "lifetimeMax" : 24789
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 1,
+    "rpages" : 211,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        195
+      ]
+    },
+    "mem_regions" : 68,
+    "uuid" : "abf2b207-092f-3f82-b9d9-f64945b71f50",
+    "fds" : 25,
+    "name" : "ProtectedCloudKeySyncing",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.069864999999999997,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073687442034,
+    "coalition" : 370,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7505,
+    "lifetimeMax" : 225,
+    "killDelta" : 544464004
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 155,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        140
+      ]
+    },
+    "mem_regions" : 58,
+    "uuid" : "cf717e7c-ee18-395e-9ea9-023d92a18d91",
+    "fds" : 25,
+    "name" : "siriappintentsd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.030422000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073676518519,
+    "coalition" : 780,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7506,
+    "lifetimeMax" : 157,
+    "killDelta" : 544503757
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 168,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        154
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "43806b6f-8974-34b1-ad38-377843582cd5",
+    "fds" : 25,
+    "name" : "TrialArchivingService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.042049000000000003,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073668129680,
+    "coalition" : 348,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7511,
+    "lifetimeMax" : 172,
+    "killDelta" : 544526039
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 117,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        104
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "0782f712-4a01-3a16-b74b-0722a6e29357",
+    "fds" : 25,
+    "name" : "fairplaydeviceidentityd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.107852,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073659206072,
+    "coalition" : 731,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7515,
+    "lifetimeMax" : 119,
+    "killDelta" : 544556778
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 228,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        210
+      ]
+    },
+    "mem_regions" : 67,
+    "uuid" : "cf1ec989-fe7c-3ba2-bf34-b12b435cd71e",
+    "fds" : 25,
+    "name" : "triald",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.122331,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073671707756,
+    "coalition" : 348,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7507,
+    "lifetimeMax" : 260,
+    "killDelta" : 544575027
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 149,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        132
+      ]
+    },
+    "mem_regions" : 63,
+    "uuid" : "ad036865-093b-3320-be22-be40af1a60d5",
+    "fds" : 25,
+    "name" : "nehelper",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.071322999999999998,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073651394389,
+    "coalition" : 194,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7517,
+    "lifetimeMax" : 154,
+    "killDelta" : 544611076
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 135,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        120
+      ]
+    },
+    "mem_regions" : 57,
+    "uuid" : "8f4cdbe6-44bb-3613-bd09-7e9c15fc590b",
+    "fds" : 25,
+    "name" : "UserFontManager",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.034136,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073667874342,
+    "coalition" : 308,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7512,
+    "lifetimeMax" : 142,
+    "killDelta" : 544636330
+  },
+  {
+    "states" : [
+      "suspended"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 204,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        187
+      ]
+    },
+    "mem_regions" : 65,
+    "uuid" : "c375ace2-47d1-3dd2-a743-2811fe6f29b0",
+    "fds" : 50,
+    "name" : "PhotosFileProvider",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.052394999999999997,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073569407784,
+    "coalition" : 622,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7533,
+    "lifetimeMax" : 208,
+    "killDelta" : 544652112
+  },
+  {
+    "states" : [
+      "suspended"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 200,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        183
+      ]
+    },
+    "mem_regions" : 69,
+    "uuid" : "c375ace2-47d1-3dd2-a743-2811fe6f29b0",
+    "fds" : 50,
+    "name" : "PhotosFileProvider",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.044288000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073567255485,
+    "coalition" : 622,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7534,
+    "lifetimeMax" : 204,
+    "killDelta" : 544675560
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 274,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        257
+      ]
+    },
+    "mem_regions" : 69,
+    "uuid" : "bf8389eb-ced2-3644-b394-bf482c12786a",
+    "fds" : 25,
+    "name" : "communicationtrustd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.11640499999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073623133052,
+    "coalition" : 653,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7523,
+    "lifetimeMax" : 281,
+    "killDelta" : 544723626
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 165,
+    "physicalPages" : {
+      "internal" : [
+        32,
+        123
+      ]
+    },
+    "mem_regions" : 62,
+    "uuid" : "eacc39f7-7571-35a6-82d2-78917a3e336e",
+    "fds" : 25,
+    "name" : "softposreaderd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.15754299999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073599330129,
+    "coalition" : 638,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7527,
+    "lifetimeMax" : 174,
+    "killDelta" : 545005342
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 161,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        145
+      ]
+    },
+    "mem_regions" : 67,
+    "uuid" : "cacb18a6-ff32-3d01-b3b9-8b490854267d",
+    "fds" : 25,
+    "name" : "powerexperienced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.069655999999999996,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073693224571,
+    "coalition" : 218,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7502,
+    "lifetimeMax" : 180,
+    "killDelta" : 545056793
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 110,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        96
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "e2b26c89-8e46-3a4b-a410-4b761ece23c9",
+    "fds" : 25,
+    "name" : "PerfPowerTelemetryClientRegistra",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.038625,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073550968475,
+    "coalition" : 196,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7538,
+    "lifetimeMax" : 139,
+    "killDelta" : 545093572
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 254,
+    "physicalPages" : {
+      "internal" : [
+        32,
+        204
+      ]
+    },
+    "mem_regions" : 81,
+    "uuid" : "e0014c0c-928a-358e-9f1d-239b6a9ed85b",
+    "fds" : 25,
+    "name" : "textunderstandingd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.13219,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073553169576,
+    "coalition" : 340,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7537,
+    "lifetimeMax" : 258,
+    "killDelta" : 545101657
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 150,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        142
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "aace43ae-91f7-3668-9e53-2a2cd685cbfe",
+    "fds" : 25,
+    "name" : "revisiond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.037995000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073564179647,
+    "coalition" : 991,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7536,
+    "lifetimeMax" : 161,
+    "killDelta" : 545186134
+  },
+  {
+    "states" : [
+      "suspended"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 567,
+    "physicalPages" : {
+      "internal" : [
+        8,
+        539
+      ]
+    },
+    "mem_regions" : 113,
+    "uuid" : "dc25a46a-2026-3c09-8cc5-fb3f25b93379",
+    "fds" : 50,
+    "name" : "ShortcutsTopHitsExtension",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.98668500000000003,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 16362963,
+    "age" : 18446744073460017856,
+    "coalition" : 410,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7544,
+    "lifetimeMax" : 1790,
+    "killDelta" : 545199198
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 386,
+    "physicalPages" : {
+      "internal" : [
+        71,
+        318
+      ]
+    },
+    "mem_regions" : 110,
+    "uuid" : "a043da60-24aa-3372-91fd-7543e50712cf",
+    "fds" : 25,
+    "name" : "promotedcontentd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.44810800000000001,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 95517947,
+    "age" : 18446744073665452972,
+    "coalition" : 729,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7514,
+    "lifetimeMax" : 396,
+    "killDelta" : 545403213
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 141,
+    "physicalPages" : {
+      "internal" : [
+        4,
+        127
+      ]
+    },
+    "mem_regions" : 59,
+    "uuid" : "9e54f93a-bed3-3c66-a992-3f4e26e1c7b5",
+    "fds" : 25,
+    "name" : "diagnosticservicesd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.089734999999999995,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 62149023,
+    "age" : 18446744073668963709,
+    "coalition" : 713,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7509,
+    "lifetimeMax" : 152,
+    "killDelta" : 545434915
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 114,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        100
+      ]
+    },
+    "mem_regions" : 136,
+    "uuid" : "cabdd6c4-21e4-359e-9d38-1c3541fa43bd",
+    "fds" : 25,
+    "name" : "ReportCrash",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.039745999999999997,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 28718334,
+    "age" : 18446744073709536855,
+    "coalition" : 670,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7497,
+    "lifetimeMax" : 124,
+    "killDelta" : 545450294
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 466,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        449
+      ]
+    },
+    "mem_regions" : 115,
+    "uuid" : "f3166836-b39c-3247-83a5-b94eba31be80",
+    "fds" : 64,
+    "name" : "IntelligencePlatformComputeServi",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.31735400000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073488278188,
+    "coalition" : 50,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7540,
+    "lifetimeMax" : 466,
+    "killDelta" : 545459682
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 82,
+    "physicalPages" : {
+      "internal" : [
+        2,
+        69
+      ]
+    },
+    "mem_regions" : 55,
+    "uuid" : "12bc3dbd-20aa-32f1-a3c6-eff81f61f2b9",
+    "fds" : 25,
+    "name" : "coresymbolicationd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.038102999999999998,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 46952336,
+    "age" : 18446744073691675217,
+    "coalition" : 697,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7503,
+    "lifetimeMax" : 94,
+    "killDelta" : 545521364
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 175,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        161
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "aab32d11-fafc-339b-a5ee-6ec48807e590",
+    "fds" : 25,
+    "name" : "ReportMemoryException",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.46860099999999999,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 64786123,
+    "age" : 18446744073665709801,
+    "coalition" : 715,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7513,
+    "lifetimeMax" : 463,
+    "killDelta" : 545533444
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 117,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        102
+      ]
+    },
+    "mem_regions" : 62,
+    "uuid" : "369e83e0-3613-3c88-9360-8ea39cf96668",
+    "fds" : 25,
+    "name" : "fontservicesd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.019791,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 155890196,
+    "age" : 18446744073668572317,
+    "coalition" : 308,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7510,
+    "lifetimeMax" : 123,
+    "killDelta" : 545706063
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 222,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        205
+      ]
+    },
+    "mem_regions" : 74,
+    "uuid" : "5fa724ec-f34c-3460-b4be-f7b2db2b18e4",
+    "fds" : 25,
+    "name" : "ospredictiond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.30377999999999999,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 165469010,
+    "age" : 18446744073690453348,
+    "coalition" : 304,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7504,
+    "lifetimeMax" : 229,
+    "killDelta" : 549361674
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 198,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        179
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "11b6c890-bae0-3cd2-9181-889553f8b8fd",
+    "fds" : 25,
+    "name" : "findmybeaconingd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.081181000000000003,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073384396644,
+    "coalition" : 556,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7559,
+    "lifetimeMax" : 214,
+    "killDelta" : 549561854
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 148,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        132
+      ]
+    },
+    "mem_regions" : 63,
+    "uuid" : "884c628a-7f8b-3924-a058-a6226f39a6fd",
+    "fds" : 25,
+    "name" : "SetStoreUpdateService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.077086000000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073378657993,
+    "coalition" : 410,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7560,
+    "lifetimeMax" : 156,
+    "killDelta" : 549588436
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 315,
+    "physicalPages" : {
+      "internal" : [
+        139,
+        165
+      ]
+    },
+    "mem_regions" : 79,
+    "uuid" : "3e5431b0-73a5-3ed8-b07d-a771fe05a019",
+    "fds" : 25,
+    "name" : "mobiletimerd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.22531000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073406679883,
+    "coalition" : 64,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7551,
+    "lifetimeMax" : 345,
+    "killDelta" : 549602144
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 314,
+    "physicalPages" : {
+      "internal" : [
+        62,
+        239
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "515238ee-5bb7-3a76-831d-c44e629c9cbf",
+    "fds" : 25,
+    "name" : "donotdisturbd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.23591500000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073402812985,
+    "coalition" : 206,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7554,
+    "lifetimeMax" : 340,
+    "killDelta" : 549713993
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 185,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        168
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "884c628a-7f8b-3924-a058-a6226f39a6fd",
+    "fds" : 25,
+    "name" : "SetStoreUpdateService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.061407999999999997,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073360287723,
+    "coalition" : 350,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7562,
+    "lifetimeMax" : 191,
+    "killDelta" : 551149248
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 428,
+    "physicalPages" : {
+      "internal" : [
+        14,
+        410
+      ]
+    },
+    "mem_regions" : 96,
+    "uuid" : "3e2d2047-230b-3b3e-ad0f-1bff2034c50d",
+    "fds" : 25,
+    "name" : "findmylocated",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.35434900000000003,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073394981036,
+    "coalition" : 262,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7558,
+    "lifetimeMax" : 460,
+    "killDelta" : 551168334
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 307,
+    "physicalPages" : {
+      "internal" : [
+        7,
+        287
+      ]
+    },
+    "mem_regions" : 74,
+    "uuid" : "7d4d89ec-61f9-325f-933e-ada18d9d56e3",
+    "fds" : 25,
+    "name" : "siriknowledged",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.28714899999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073370624109,
+    "coalition" : 350,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7561,
+    "lifetimeMax" : 321,
+    "killDelta" : 551322654
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 104,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        91
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "af2df27a-74d3-33bc-81f2-2167d10a92e7",
+    "fds" : 25,
+    "name" : "misagent",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.025250000000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073347937200,
+    "coalition" : 380,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7564,
+    "lifetimeMax" : 115,
+    "killDelta" : 551341170
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 281,
+    "physicalPages" : {
+      "internal" : [
+        38,
+        230
+      ]
+    },
+    "mem_regions" : 65,
+    "uuid" : "97431dd3-b5a6-38ab-b256-6efd7fa29a5a",
+    "fds" : 25,
+    "name" : "profiled",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.46440900000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073397165243,
+    "coalition" : 248,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7557,
+    "lifetimeMax" : 291,
+    "killDelta" : 551346973
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 247,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        224
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "070de64b-fc8d-3410-81b0-95cb4352b27f",
+    "fds" : 25,
+    "name" : "sociallayerd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.111316,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073467999051,
+    "coalition" : 286,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7542,
+    "lifetimeMax" : 257,
+    "killDelta" : 551370670
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 336,
+    "physicalPages" : {
+      "internal" : [
+        30,
+        307
+      ]
+    },
+    "mem_regions" : 100,
+    "uuid" : "d1a9f28d-1f0e-332d-824b-8e2be04d4d2f",
+    "fds" : 25,
+    "name" : "CategoriesService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.242143,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 109132233,
+    "age" : 18446744073698912137,
+    "coalition" : 616,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7501,
+    "lifetimeMax" : 343,
+    "killDelta" : 551574650
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 309,
+    "physicalPages" : {
+      "internal" : [
+        67,
+        227
+      ]
+    },
+    "mem_regions" : 83,
+    "uuid" : "32c940fc-0927-3f9d-8be6-5e3fbd867349",
+    "fds" : 25,
+    "name" : "ContextService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.303234,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073670191119,
+    "coalition" : 476,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7508,
+    "lifetimeMax" : 319,
+    "killDelta" : 552083021
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 181,
+    "physicalPages" : {
+      "internal" : [
+        25,
+        143
+      ]
+    },
+    "mem_regions" : 63,
+    "uuid" : "8220aaf9-3551-3ed6-83e2-eae40fd86661",
+    "fds" : 25,
+    "name" : "visualintelligenced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.047056000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073294573223,
+    "coalition" : 675,
+    "csFlags" : 570499841,
+    "reason" : "idle-exit",
+    "pid" : 7568,
+    "lifetimeMax" : 193,
+    "killDelta" : 552180476
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 164,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        148
+      ]
+    },
+    "mem_regions" : 64,
+    "uuid" : "884c628a-7f8b-3924-a058-a6226f39a6fd",
+    "fds" : 25,
+    "name" : "SetStoreUpdateService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.044845999999999997,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073284710138,
+    "coalition" : 480,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7571,
+    "lifetimeMax" : 185,
+    "killDelta" : 1433066938
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 160,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        144
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "db7c70c0-cdb7-3a36-9d0d-3dd17e1ddf44",
+    "fds" : 25,
+    "name" : "pasted",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.059551,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073406420739,
+    "coalition" : 468,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7552,
+    "lifetimeMax" : 172,
+    "killDelta" : 1433104792
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 363,
+    "physicalPages" : {
+      "internal" : [
+        147,
+        212
+      ]
+    },
+    "mem_regions" : 100,
+    "uuid" : "34e998f3-ae8f-3177-b562-47bb528f3823",
+    "fds" : 25,
+    "name" : "amsondevicestoraged",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.284329,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073289702617,
+    "coalition" : 690,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7570,
+    "lifetimeMax" : 385,
+    "killDelta" : 1433136586
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 362,
+    "physicalPages" : {
+      "internal" : [
+        33,
+        313
+      ]
+    },
+    "mem_regions" : 82,
+    "uuid" : "99fded9c-84b3-3353-a5dd-09e2f348496f",
+    "fds" : 25,
+    "name" : "calaccessd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.503413,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073634651911,
+    "coalition" : 252,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7519,
+    "lifetimeMax" : 419,
+    "killDelta" : 1433245752
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 164,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        150
+      ]
+    },
+    "mem_regions" : 59,
+    "uuid" : "ff577ea5-1d2c-3d20-bc8d-7ac1e4ce805e",
+    "fds" : 25,
+    "name" : "ContainerMetadataExtractor",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.13141700000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073275538055,
+    "coalition" : 655,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7572,
+    "lifetimeMax" : 167,
+    "killDelta" : 1433385442
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 216,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        199
+      ]
+    },
+    "mem_regions" : 68,
+    "uuid" : "2cceb510-c28d-32dd-b8ec-c432676a737e",
+    "fds" : 25,
+    "name" : "assetsubscriptiond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.49709700000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073350224920,
+    "coalition" : 454,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7563,
+    "lifetimeMax" : 226,
+    "killDelta" : 1433462999
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 207,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        188
+      ]
+    },
+    "mem_regions" : 76,
+    "uuid" : "0efd23b2-8798-3b7a-9965-47d50851be15",
+    "fds" : 25,
+    "name" : "HeuristicInterpreter",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.21765699999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073595058956,
+    "coalition" : 480,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7529,
+    "lifetimeMax" : 351,
+    "killDelta" : 1433486155
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 243,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        226
+      ]
+    },
+    "mem_regions" : 68,
+    "uuid" : "a95f0324-bd40-313e-a64d-f644e7c8de2c",
+    "fds" : 25,
+    "name" : "AppPredictionIntentsHelperServic",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.30463400000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073408793838,
+    "coalition" : 480,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7550,
+    "lifetimeMax" : 260,
+    "killDelta" : 1433567455
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 354,
+    "physicalPages" : {
+      "internal" : [
+        26,
+        315
+      ]
+    },
+    "mem_regions" : 76,
+    "uuid" : "da5d13db-8d18-37b8-a363-811a9dd80859",
+    "fds" : 25,
+    "name" : "liveactivitiesd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.354412,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073401414275,
+    "coalition" : 238,
+    "csFlags" : 570499841,
+    "reason" : "idle-exit",
+    "pid" : 7555,
+    "lifetimeMax" : 377,
+    "killDelta" : 1433589353
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 241,
+    "physicalPages" : {
+      "internal" : [
+        21,
+        208
+      ]
+    },
+    "mem_regions" : 69,
+    "uuid" : "3686d0db-2b9b-3ffd-8089-ad0336624daa",
+    "fds" : 25,
+    "name" : "sleepd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.12400799999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073404794815,
+    "coalition" : 116,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7553,
+    "lifetimeMax" : 262,
+    "killDelta" : 1433687636
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 236,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        218
+      ]
+    },
+    "mem_regions" : 69,
+    "uuid" : "4cd708d7-301f-3e85-a189-037bee4c0b12",
+    "fds" : 25,
+    "name" : "deviceaccessd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.13997599999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073157572584,
+    "coalition" : 208,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7575,
+    "lifetimeMax" : 236,
+    "killDelta" : 1433709230
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 100,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        86
+      ]
+    },
+    "mem_regions" : 57,
+    "uuid" : "86186127-6679-35be-9600-6f82372a8a59",
+    "fds" : 25,
+    "name" : "MobileGestaltHelper",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.019536000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073139857114,
+    "coalition" : 180,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7578,
+    "lifetimeMax" : 100,
+    "killDelta" : 1433751548
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 267,
+    "physicalPages" : {
+      "internal" : [
+        16,
+        234
+      ]
+    },
+    "mem_regions" : 315,
+    "uuid" : "0c271117-04cd-3047-a61c-7748dd268aa4",
+    "fds" : 25,
+    "name" : "avconferenced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.078069,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073114122522,
+    "coalition" : 1470,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7580,
+    "lifetimeMax" : 267,
+    "killDelta" : 1433760704
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 301,
+    "physicalPages" : {
+      "internal" : [
+        3,
+        320
+      ]
+    },
+    "mem_regions" : 82,
+    "uuid" : "69335444-f06e-3bc2-908d-e9f358952f61",
+    "fds" : 25,
+    "name" : "syncdefaultsd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.29536000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073094101615,
+    "coalition" : 306,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7585,
+    "lifetimeMax" : 301,
+    "killDelta" : 1433844452
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 249,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        229
+      ]
+    },
+    "mem_regions" : 67,
+    "uuid" : "fa622299-dfb7-3943-b87f-d05856136849",
+    "fds" : 25,
+    "name" : "bluetoothuserd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.125221,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073095763503,
+    "coalition" : 246,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7584,
+    "lifetimeMax" : 249,
+    "killDelta" : 1433872339
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 187,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        178
+      ]
+    },
+    "mem_regions" : 70,
+    "uuid" : "61a65477-0520-30d1-b4cc-9c3fc32f731f",
+    "fds" : 25,
+    "name" : "cloudtelemetryd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.090875999999999998,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073450687165,
+    "coalition" : 685,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7546,
+    "lifetimeMax" : 202,
+    "killDelta" : 1433891352
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 173,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        157
+      ]
+    },
+    "mem_regions" : 66,
+    "uuid" : "884c628a-7f8b-3924-a058-a6226f39a6fd",
+    "fds" : 25,
+    "name" : "SetStoreUpdateService",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.13015099999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073107046347,
+    "coalition" : 316,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7583,
+    "lifetimeMax" : 178,
+    "killDelta" : 1433908381
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 696,
+    "physicalPages" : {
+      "internal" : [
+        74,
+        622
+      ]
+    },
+    "mem_regions" : 141,
+    "uuid" : "deb164d7-ad65-3c90-9182-03fd77ab30cb",
+    "fds" : 64,
+    "name" : "duetexpertd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 3.4315229999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073646050105,
+    "coalition" : 480,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7518,
+    "lifetimeMax" : 792,
+    "killDelta" : 1433930013
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 221,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        204
+      ]
+    },
+    "mem_regions" : 74,
+    "uuid" : "5fa724ec-f34c-3460-b4be-f7b2db2b18e4",
+    "fds" : 25,
+    "name" : "ospredictiond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.26444099999999998,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744072960507530,
+    "coalition" : 304,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7587,
+    "lifetimeMax" : 223,
+    "killDelta" : 1434038473
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 161,
+    "physicalPages" : {
+      "internal" : [
+        6,
+        144
+      ]
+    },
+    "mem_regions" : 65,
+    "uuid" : "cacb18a6-ff32-3d01-b3b9-8b490854267d",
+    "fds" : 25,
+    "name" : "powerexperienced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.066184000000000007,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744072962413308,
+    "coalition" : 218,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7586,
+    "lifetimeMax" : 168,
+    "killDelta" : 1434061951
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 243,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        224
+      ]
+    },
+    "mem_regions" : 69,
+    "uuid" : "34b7bf9e-47c4-3e8f-8e65-4b772fbb72b3",
+    "fds" : 25,
+    "name" : "nanotimekitcompaniond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.71425499999999997,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073620471477,
+    "coalition" : 642,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7524,
+    "lifetimeMax" : 258,
+    "killDelta" : 1434080318
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 246,
+    "physicalPages" : {
+      "internal" : [
+        14,
+        234
+      ]
+    },
+    "mem_regions" : 84,
+    "uuid" : "f00dc6c2-c67c-3e22-9b2b-f300ab578eec",
+    "fds" : 25,
+    "name" : "swcd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.41024899999999997,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073334266966,
+    "coalition" : 436,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7567,
+    "lifetimeMax" : 347,
+    "killDelta" : 1434196978
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 180,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        164
+      ]
+    },
+    "mem_regions" : 61,
+    "uuid" : "9fb64570-06cc-3b1f-b158-e6b71c67ac05",
+    "fds" : 25,
+    "name" : "manageddeviced",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.071462999999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073624320363,
+    "coalition" : 326,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7522,
+    "lifetimeMax" : 187,
+    "killDelta" : 1434227539
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 149,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        134
+      ]
+    },
+    "mem_regions" : 66,
+    "uuid" : "662b5858-69d2-30ec-809f-586d7a58989a",
+    "fds" : 25,
+    "name" : "spaceattributiond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.098178000000000001,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073564808840,
+    "coalition" : 482,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7535,
+    "lifetimeMax" : 185,
+    "killDelta" : 1434244937
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 153,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        136
+      ]
+    },
+    "mem_regions" : 62,
+    "uuid" : "24fe024c-d181-36c8-992f-e64e9a61d040",
+    "fds" : 25,
+    "name" : "osanalyticshelper",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.053482000000000002,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 144642408,
+    "age" : 18446744073708580027,
+    "coalition" : 474,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7498,
+    "lifetimeMax" : 167,
+    "killDelta" : 1434292569
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 219,
+    "physicalPages" : {
+      "internal" : [
+        80,
+        126
+      ]
+    },
+    "mem_regions" : 72,
+    "uuid" : "4af972fc-3568-3f3d-8c16-57a601fc11af",
+    "fds" : 25,
+    "name" : "appprotectiond",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.09468,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073628213723,
+    "coalition" : 84,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7520,
+    "lifetimeMax" : 231,
+    "killDelta" : 1434310111
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 364,
+    "physicalPages" : {
+      "internal" : [
+        101,
+        265
+      ]
+    },
+    "mem_regions" : 221,
+    "uuid" : "96d5ca21-6267-3eae-a3dd-819ad2a2e8be",
+    "fds" : 25,
+    "name" : "replicatord",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.75287199999999999,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073618131817,
+    "coalition" : 216,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7525,
+    "lifetimeMax" : 386,
+    "killDelta" : 1434330762
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 273,
+    "physicalPages" : {
+      "internal" : [
+        5,
+        255
+      ]
+    },
+    "mem_regions" : 85,
+    "uuid" : "935dced4-1140-3bcb-946b-5d07270b13b1",
+    "fds" : 25,
+    "name" : "callhistoryd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.82911400000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073455302240,
+    "coalition" : 1476,
+    "csFlags" : 570434305,
+    "reason" : "idle-exit",
+    "pid" : 7545,
+    "lifetimeMax" : 2113,
+    "killDelta" : 1434373665
+  },
+  {
+    "states" : [
+      "daemon",
+      "idle"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 358,
+    "physicalPages" : {
+      "internal" : [
+        61,
+        285
+      ]
+    },
+    "mem_regions" : 77,
+    "uuid" : "f98e5e8b-a028-3d5c-9618-899a59e4ba8e",
+    "fds" : 25,
+    "name" : "audioaccessoryd",
+    "priority" : 0,
+    "csTrustLevel" : 9,
+    "cpuTime" : 0.52200500000000005,
+    "freeze_skip_reason:" : "none",
+    "idleDelta" : 154803674,
+    "age" : 18446744073162040034,
+    "coalition" : 108,
+    "csFlags" : 570434305,
+    "reason" : "vm-compressor-thrashing",
+    "pid" : 7574,
+    "lifetimeMax" : 359,
+    "killDelta" : 1622092241
+  },
+  {
+    "states" : [
+      "active"
+    ],
+    "genCount" : 1,
+    "purgeable" : 0,
+    "rpages" : 33306,
+    "physicalPages" : {
+      "internal" : [
+        3502,
+        4261
+      ]
+    },
+    "mem_regions" : 360,
+    "uuid" : "842d6b54-32e2-3012-bd29-4d312f95a057",
+    "fds" : 64,
+    "name" : "mediaanalysisd",
+    "priority" : 40,
+    "csTrustLevel" : 9,
+    "cpuTime" : 33.455812000000002,
+    "freeze_skip_reason:" : "none",
+    "age" : 18446744073707783635,
+    "coalition" : 683,
+    "csFlags" : 570434305,
+    "reason" : "highwater",
+    "pid" : 7499,
+    "lifetimeMax" : 33306,
+    "killDelta" : 1642822962
+  }
+]
+}

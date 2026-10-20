@@ -1,0 +1,357 @@
+AGGREGATED OVER LAST 3 HOURS:
+  * com.android.vending:background / u0a187 / v85354840:
+         TOTAL: 100% (84MB-85MB-86MB/51MB-52MB-53MB/216MB-217MB-218MB over 3)
+        Imp Bg: 100% (84MB-85MB-86MB/51MB-52MB-53MB/216MB-217MB-218MB over 3)
+  * system / 1000 / v37:
+         TOTAL: 100% (469MB-505MB-595MB/326MB-356MB-429MB/768MB-812MB-0.90GB over 4)
+    Service Rs: 100% (469MB-505MB-595MB/326MB-356MB-429MB/768MB-812MB-0.90GB over 4)
+  * com.google.android.aicore:isolated_service:com.google.android.apps.aicore.service.isolated.AiCoreIsolatedService / u0a146 / v526925:
+         TOTAL: 100% (119MB-119MB-119MB/44MB-44MB-44MB/150MB-150MB-150MB over 4)
+       Bnd Fgs: 100% (119MB-119MB-119MB/44MB-44MB-44MB/150MB-150MB-150MB over 4)
+  * com.google.android.googlequicksearchbox:trusted_disable_art_image_:com.google.android.apps.gsa.hotword.hotworddetectionservice.GsaHotwordDetectionService:hotword_detector_0 / u0a210 / v301820583:
+         TOTAL: 100% (21MB-21MB-22MB/12MB-12MB-12MB/134MB-134MB-135MB over 4)
+       Bnd Fgs: 100% (21MB-21MB-22MB/12MB-12MB-12MB/134MB-134MB-135MB over 4)
+  * com.mediatek.satellite.service / u0a293 / v37:
+         TOTAL: 100% (6.2MB-6.3MB-6.4MB/2.6MB-2.6MB-2.7MB/93MB-93MB-93MB over 4)
+        Imp Fg: 100% (6.2MB-6.3MB-6.4MB/2.6MB-2.6MB-2.7MB/93MB-93MB-93MB over 4)
+  * com.google.android.apps.camera.services / u0a189 / v528766:
+         TOTAL: 100% (12MB-13MB-13MB/6.6MB-6.7MB-6.8MB/103MB-103MB-103MB over 2)
+    Persistent: 100% (12MB-13MB-13MB/6.6MB-6.7MB-6.8MB/103MB-103MB-103MB over 2)
+  * com.nourishrx.app / u0a563 / v202:
+         TOTAL: 100% (1.2GB-1.2GB-1.2GB/747MB-748MB-748MB/0.90GB-0.90GB-0.90GB over 2)
+           Top: 100% (1.2GB-1.2GB-1.2GB/747MB-748MB-748MB/0.90GB-0.90GB-0.90GB over 2)
+  * com.google.android.apps.chromecast.app / u0a334 / v30585736:
+         TOTAL: 100% (73MB-74MB-74MB/60MB-60MB-60MB/194MB-194MB-194MB over 2)
+        Imp Fg: 100% (73MB-74MB-74MB/60MB-60MB-60MB/194MB-194MB-194MB over 2)
+  * com.android.qns / 1000 / v37:
+         TOTAL: 100% (11MB-11MB-11MB/5.0MB-5.0MB-5.0MB/102MB-102MB-102MB over 4)
+        Imp Fg: 100% (11MB-11MB-11MB/5.0MB-5.0MB-5.0MB/102MB-102MB-102MB over 4)
+  * com.google.android.pixelsystemservice:ephemeral / u0a302 / v37:
+         TOTAL: 100% (13MB-13MB-13MB/7.1MB-7.2MB-7.3MB/108MB-108MB-108MB over 3)
+        Imp Fg: 100% (13MB-13MB-13MB/7.1MB-7.2MB-7.3MB/108MB-108MB-108MB over 3)
+  * com.google.android.as.oss / u0a165 / v146829:
+         TOTAL: 100% (37MB-38MB-38MB/28MB-28MB-29MB/168MB-167MB-168MB over 4)
+       Bnd Fgs: 100% (37MB-38MB-38MB/28MB-28MB-29MB/168MB-167MB-168MB over 4)
+  * com.android.imsstack / 1001 / v10000:
+         TOTAL: 100% (16MB-16MB-16MB/9.1MB-9.1MB-9.1MB/108MB-108MB-108MB over 2)
+    Persistent: 100% (16MB-16MB-16MB/9.1MB-9.1MB-9.1MB/108MB-108MB-108MB over 2)
+  * com.google.android.adservices.api / u0a319 / v37:
+         TOTAL: 100% (11MB-11MB-11MB/6.7MB-6.8MB-6.8MB/100MB-100MB-100MB over 4)
+       Bnd Top: 100% (11MB-11MB-11MB/6.7MB-6.8MB-6.8MB/100MB-100MB-100MB over 4)
+  * com.android.networkstack.process / 1073 / v371020700:
+         TOTAL: 100% (36MB-37MB-37MB/31MB-32MB-32MB/136MB-136MB-136MB over 2)
+    Persistent: 100% (36MB-37MB-37MB/31MB-32MB-32MB/136MB-136MB-136MB over 2)
+  * com.google.android.grilservice / u0a296 / v37:
+         TOTAL: 100% (8.8MB-8.8MB-8.8MB/5.2MB-5.3MB-5.3MB/100MB-100MB-100MB over 2)
+    Persistent: 100% (8.8MB-8.8MB-8.8MB/5.2MB-5.3MB-5.3MB/100MB-100MB-100MB over 2)
+  * com.google.android.providers.media.module / u0a332 / v37:
+         TOTAL: 100% (42MB-42MB-42MB/31MB-31MB-32MB/141MB-140MB-141MB over 3)
+    Persistent: 100% (42MB-42MB-42MB/31MB-31MB-32MB/141MB-140MB-141MB over 3)
+  * com.google.android.apps.nexuslauncher / u0a273 / v907:
+         TOTAL: 100% (155MB-172MB-221MB/136MB-153MB-202MB/353MB-302MB-353MB over 4)
+           Top: 100% (155MB-172MB-221MB/136MB-153MB-202MB/353MB-302MB-353MB over 4)
+  * com.google.android.apps.turbo / u0a209 / v10273292:
+         TOTAL: 100% (26MB-27MB-27MB/20MB-20MB-21MB/128MB-128MB-128MB over 4)
+       Bnd Fgs: 100% (26MB-27MB-27MB/20MB-20MB-21MB/128MB-128MB-128MB over 4)
+  * com.google.android.apps.scone / u0a200 / v85354:
+         TOTAL: 100% (38MB-38MB-39MB/33MB-34MB-35MB/146MB-146MB-146MB over 4)
+        Imp Fg: 100% (38MB-38MB-39MB/33MB-34MB-35MB/146MB-146MB-146MB over 4)
+  * com.google.pixel.digitalkey.timesync / u0a260 / v37:
+         TOTAL: 100% (7.7MB-7.7MB-7.8MB/2.5MB-2.5MB-2.5MB/90MB-90MB-90MB over 2)
+    Persistent: 100% (7.7MB-7.7MB-7.8MB/2.5MB-2.5MB-2.5MB/90MB-90MB-90MB over 2)
+  * com.google.android.aicore / u0a146 / v526925:
+         TOTAL: 100% (31MB-32MB-32MB/23MB-23MB-23MB/134MB-134MB-134MB over 4)
+       Bnd Fgs: 4.2% (31MB-31MB-31MB/23MB-23MB-23MB/134MB-134MB-134MB over 1)
+        Imp Bg: 96% (31MB-32MB-32MB/23MB-23MB-23MB/134MB-134MB-134MB over 3)
+  * com.google.android.apps.pixel.psi / u0a20191 / v15282:
+         TOTAL: 100% (173MB-173MB-174MB/79MB-79MB-80MB/190MB-191MB-191MB over 4)
+       Bnd Fgs: 100% (173MB-173MB-174MB/79MB-79MB-80MB/190MB-191MB-191MB over 4)
+  * com.google.android.appsearch.apk / u0a308 / v37:
+         TOTAL: 100% (8.3MB-8.4MB-8.4MB/2.8MB-2.8MB-2.8MB/96MB-96MB-96MB over 2)
+    Persistent: 100% (8.3MB-8.4MB-8.4MB/2.8MB-2.8MB-2.8MB/96MB-96MB-96MB over 2)
+  * com.android.phone / 1001 / v37:
+         TOTAL: 100% (35MB-36MB-37MB/27MB-28MB-29MB/152MB-153MB-153MB over 2)
+    Persistent: 100% (35MB-36MB-37MB/27MB-28MB-29MB/152MB-153MB-153MB over 2)
+  * com.google.android.pixelsystemservice / u0a302 / v37:
+         TOTAL: 100% (16MB-16MB-16MB/8.4MB-8.5MB-8.6MB/112MB-112MB-112MB over 2)
+    Persistent: 100% (16MB-16MB-16MB/8.4MB-8.5MB-8.6MB/112MB-112MB-112MB over 2)
+  * com.google.android.googlequicksearchbox:interactor / u0a210 / v301820583:
+         TOTAL: 100% (68MB-71MB-79MB/36MB-39MB-47MB/200MB-203MB-211MB over 4)
+       Bnd Top: 100% (68MB-71MB-79MB/36MB-39MB-47MB/200MB-203MB-211MB over 4)
+  * com.google.android.modem.pms / u0a277 / v1:
+         TOTAL: 100% (46MB-55MB-65MB/36MB-45MB-55MB/140MB-149MB-159MB over 4)
+        Imp Fg: 100% (46MB-55MB-65MB/36MB-45MB-55MB/140MB-149MB-159MB over 4)
+  * com.google.SSRestartDetector / 1000 / v37:
+         TOTAL: 100% (7.6MB-7.6MB-7.7MB/2.3MB-2.3MB-2.3MB/91MB-91MB-91MB over 2)
+    Persistent: 100% (7.6MB-7.6MB-7.7MB/2.3MB-2.3MB-2.3MB/91MB-91MB-91MB over 2)
+  * com.google.android.bluetooth / 1002 / v37:
+         TOTAL: 100% (20MB-20MB-20MB/16MB-16MB-16MB/120MB-120MB-121MB over 2)
+    Persistent: 100% (20MB-20MB-20MB/16MB-16MB-16MB/120MB-120MB-121MB over 2)
+  * com.google.android.inputmethod.latin / u0a227 / v176027078:
+         TOTAL: 100% (149MB-149MB-149MB/119MB-119MB-120MB/255MB-255MB-255MB over 4)
+        Imp Bg: 100% (149MB-149MB-149MB/119MB-119MB-120MB/255MB-255MB-255MB over 4)
+  * com.android.telephony.imsmedia / 1001 / v37:
+         TOTAL: 100% (7.4MB-7.5MB-7.7MB/2.4MB-2.5MB-2.6MB/89MB-89MB-89MB over 2)
+    Persistent: 100% (7.4MB-7.5MB-7.7MB/2.4MB-2.5MB-2.6MB/89MB-89MB-89MB over 2)
+  * com.google.android.connectivitythermalpowermanager / u0a261 / v37:
+         TOTAL: 100% (12MB-12MB-12MB/7.2MB-7.3MB-7.4MB/105MB-105MB-105MB over 2)
+    Persistent: 100% (12MB-12MB-12MB/7.2MB-7.3MB-7.4MB/105MB-105MB-105MB over 2)
+  * com.google.android.ext.services / u0a321 / v370549340:
+         TOTAL: 100% (12MB-12MB-12MB/6.9MB-7.0MB-7.1MB/109MB-109MB-109MB over 4)
+       Bnd Top: 100% (12MB-12MB-12MB/6.9MB-7.0MB-7.1MB/109MB-109MB-109MB over 4)
+  * com.google.android.apps.cbrsnetworkmonitor / u0a158 / v26:
+         TOTAL: 100% (7.5MB-7.6MB-7.6MB/2.5MB-2.5MB-2.5MB/90MB-90MB-90MB over 2)
+    Persistent: 100% (7.5MB-7.6MB-7.6MB/2.5MB-2.5MB-2.5MB/90MB-90MB-90MB over 2)
+  * com.google.android.as / u0a166 / v16964122:
+         TOTAL: 100% (168MB-168MB-168MB/134MB-134MB-134MB/264MB-264MB-264MB over 4)
+       Bnd Fgs: 100% (168MB-168MB-168MB/134MB-134MB-134MB/264MB-264MB-264MB over 4)
+  * com.android.se / 1068 / v37:
+         TOTAL: 100% (7.9MB-7.9MB-7.9MB/3.0MB-3.0MB-3.0MB/93MB-93MB-93MB over 2)
+    Persistent: 100% (7.9MB-7.9MB-7.9MB/3.0MB-3.0MB-3.0MB/93MB-93MB-93MB over 2)
+  * com.android.vending / u0a187 / v85354840:
+         TOTAL: 100% (140MB-140MB-141MB/107MB-108MB-109MB/291MB-292MB-293MB over 3)
+       Bnd Top: 100% (140MB-140MB-141MB/107MB-108MB-109MB/291MB-292MB-293MB over 3)
+  * com.google.android.modem.persist / u0a274 / v1:
+         TOTAL: 100% (7.6MB-7.7MB-7.8MB/2.6MB-2.6MB-2.7MB/90MB-90MB-90MB over 2)
+    Persistent: 100% (7.6MB-7.7MB-7.8MB/2.6MB-2.6MB-2.7MB/90MB-90MB-90MB over 2)
+  * com.google.android.apps.dreamliner / u0a170 / v22007820:
+         TOTAL: 100% (18MB-18MB-18MB/14MB-14MB-14MB/114MB-114MB-114MB over 2)
+        Imp Fg: 100% (18MB-18MB-18MB/14MB-14MB-14MB/114MB-114MB-114MB over 2)
+  * com.google.android.gms / u0a303 / v263436035:
+         TOTAL: 100% (316MB-325MB-336MB/292MB-301MB-312MB/532MB-526MB-537MB over 4)
+       Bnd Top: 100% (316MB-325MB-336MB/292MB-301MB-312MB/532MB-526MB-537MB over 4)
+  * com.android.systemui / u0a290 / v37:
+         TOTAL: 100% (352MB-353MB-355MB/290MB-291MB-293MB/529MB-528MB-529MB over 2)
+    Persistent: 100% (352MB-353MB-355MB/290MB-291MB-293MB/529MB-528MB-529MB over 2)
+  * com.android.pixeldisplayservice / u0a276 / v2:
+         TOTAL: 100% (76MB-76MB-76MB/72MB-72MB-72MB/182MB-182MB-182MB over 2)
+    Persistent: 100% (76MB-76MB-76MB/72MB-72MB-72MB/182MB-182MB-182MB over 2)
+  * com.google.pixel.camera.services / 1000 / v1:
+         TOTAL: 100% (8.1MB-8.1MB-8.2MB/2.9MB-2.9MB-2.9MB/94MB-94MB-94MB over 2)
+    Persistent: 100% (8.1MB-8.1MB-8.2MB/2.9MB-2.9MB-2.9MB/94MB-94MB-94MB over 2)
+  * com.google.android.rilextension / u0a297 / v37:
+         TOTAL: 100% (7.8MB-7.8MB-7.9MB/2.7MB-2.7MB-2.7MB/93MB-93MB-93MB over 2)
+    Persistent: 100% (7.8MB-7.8MB-7.9MB/2.7MB-2.7MB-2.7MB/93MB-93MB-93MB over 2)
+  * com.google.android.apps.messaging:rcs / u0a193 / v324451063:
+         TOTAL: 100% (34MB-34MB-35MB/21MB-21MB-22MB/125MB-126MB-126MB over 4)
+       Bnd Fgs: 100% (34MB-34MB-35MB/21MB-21MB-22MB/125MB-126MB-126MB over 4)
+  * com.google.android.GoogleCamera / u0a176 / v69703284:
+         TOTAL: 100% (47MB-47MB-48MB/19MB-19MB-19MB/147MB-147MB-147MB over 2)
+       Service: 100% (47MB-47MB-48MB/19MB-19MB-19MB/147MB-147MB-147MB over 2)
+  * com.google.android.nfc / 1027 / v37:
+         TOTAL: 100% (18MB-22MB-25MB/12MB-15MB-17MB/113MB-117MB-122MB over 2)
+    Persistent: 100% (18MB-22MB-25MB/12MB-15MB-17MB/113MB-117MB-122MB over 2)
+  * com.google.android.satellite / 1000 / v37:
+         TOTAL: 100% (4.5MB-4.6MB-4.7MB/2.5MB-2.6MB-2.6MB/92MB-92MB-92MB over 4)
+        Imp Fg: 100% (4.5MB-4.6MB-4.7MB/2.5MB-2.6MB-2.6MB/92MB-92MB-92MB over 4)
+  * com.google.android.iwlan / 1000 / v37:
+         TOTAL: 100% (9.2MB-9.3MB-9.3MB/3.9MB-4.0MB-4.0MB/99MB-99MB-99MB over 4)
+        Imp Fg: 100% (9.2MB-9.3MB-9.3MB/3.9MB-4.0MB-4.0MB/99MB-99MB-99MB over 4)
+  * com.google.android.mosey / u0a270 / v60715:
+         TOTAL: 100% (11MB-11MB-11MB/8.7MB-8.8MB-8.8MB/102MB-101MB-102MB over 4)
+       Bnd Top: 100% (11MB-11MB-11MB/8.7MB-8.8MB-8.8MB/102MB-101MB-102MB over 4)
+  * com.google.android.googlequicksearchbox:search / u0a210 / v301820583:
+         TOTAL: 3.3%
+        Imp Bg: 3.3%
+  * com.google.android.googlequicksearchbox:googleapp / u0a210 / v301820583:
+         TOTAL: 3.3%
+        Imp Bg: 3.3%
+  * com.android.settings / 1000 / v37:
+         TOTAL: 1.1% (76MB-77MB-78MB/4.8MB-7.5MB-9.4MB/148MB-147MB-149MB over 3)
+       Bnd Fgs: 0.07%
+       Service: 1.0% (76MB-77MB-78MB/4.8MB-7.5MB-9.4MB/148MB-147MB-149MB over 3)
+  * com.google.android.apps.wellbeing / u0a214 / v880517:
+         TOTAL: 1.1% (36MB-39MB-44MB/2.3MB-9.9MB-23MB/111MB-117MB-129MB over 3)
+       Bnd Fgs: 0.09%
+       Service: 1.0% (36MB-39MB-44MB/2.3MB-9.9MB-23MB/111MB-117MB-129MB over 3)
+  * system:ui / 1000 / v37:
+         TOTAL: 0.79% (12MB-12MB-12MB/3.6MB-3.6MB-3.7MB/115MB-115MB-115MB over 3)
+           Top: 0.79% (12MB-12MB-12MB/3.6MB-3.6MB-3.7MB/115MB-115MB-115MB over 3)
+  * com.google.android.as.oss:learning_bg / u0a165 / v146829:
+         TOTAL: 0.53%
+        Imp Bg: 0.53%
+  * com.google.android.apps.messaging / u0a193 / v324451063:
+         TOTAL: 0.35%
+       Bnd Fgs: 0.35%
+    (Last Act): 6.3%
+  * com.google.android.apps.carrier.carrierwifi / u0a157 / v194:
+         TOTAL: 0.19% (8.5MB-8.5MB-8.5MB/4.9MB-4.9MB-4.9MB/102MB-102MB-102MB over 1)
+       Service: 0.19% (8.5MB-8.5MB-8.5MB/4.9MB-4.9MB-4.9MB/102MB-102MB-102MB over 1)
+  * com.google.android.gms.unstable / u0a303 / v264032035:
+         TOTAL: 0.06%
+       Bnd Top: 0.06%
+  * com.google.android.apps.weather / u0a213 / v10009803:
+         TOTAL: 0.06%
+        Imp Bg: 0.06%
+  * com.google.android.permissioncontroller / u0a314 / v371017160:
+         TOTAL: 0.06% (40MB-40MB-40MB/8.1MB-8.1MB-8.1MB/129MB-129MB-129MB over 1)
+        Imp Fg: 0.06% (40MB-40MB-40MB/8.1MB-8.1MB-8.1MB/129MB-129MB-129MB over 1)
+  * com.google.android.euicc / u0a172 / v306110:
+         TOTAL: 0.05%
+       Bnd Fgs: 0.05%
+  * com.google.android.gm / u0a239 / v66071966:
+         TOTAL: 0.04%
+        Imp Bg: 0.04%
+  * com.google.android.gms:com.google.android.gms.chimera.IsolatedBoundBrokerService / u0a303 / v264032035:
+         TOTAL: 0.04%
+       Bnd Top: 0.04%
+  * com.google.android.calendar / u0a218 / v2018335910:
+         TOTAL: 0.04%
+        Imp Bg: 0.04%
+  * com.google.android.apps.wear.companion / u0a398 / v331757311:
+         TOTAL: 0.04%
+       Bnd Top: 0.02%
+       Service: 0.01%
+    Service Rs: 0.01%
+  * com.android.providers.calendar / u0a106 / v37:
+         TOTAL: 0.04%
+        Imp Bg: 0.04%
+  * com.google.android.apps.wear.companion:persistent / u0a398 / v331757311:
+         TOTAL: 0.03%
+       Bnd Top: 0.02%
+       Service: 0.01%
+  * com.google.android.apps.photos / u0a235 / v52514915:
+  * com.tencent.mm:push / u0a335 / v3182:
+  * com.tencent.mm / u0a335 / v3182:
+  * com.google.android.tts / u0a226 / v210683481:
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.NativeOnlySandboxedProcessService0:22 / u0a219 / v805903904:
+    (Last Act): 1.7% (19MB-19MB-19MB/2.9MB-2.9MB-2.9MB/37MB-37MB-37MB over 1)
+  * com.android.chrome:privileged_process0 / u0a219 / v805903904:
+    (Last Act): 1.7% (59MB-59MB-59MB/32MB-32MB-32MB/160MB-160MB-160MB over 1)
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.NativeOnlySandboxedProcessService0:20 / u0a219 / v805903904:
+    (Last Act): 1.7% (17MB-17MB-17MB/2.8MB-2.8MB-2.8MB/33MB-33MB-33MB over 1)
+  * com.android.chrome / u0a219 / v805903904:
+    (Last Act): 1.7% (119MB-119MB-119MB/11MB-11MB-11MB/163MB-163MB-163MB over 1)
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.NativeOnlySandboxedProcessService0:19 / u0a219 / v805903904:
+    (Last Act): 1.7% (44MB-44MB-44MB/5.2MB-5.2MB-5.2MB/43MB-43MB-43MB over 1)
+  * com.google.android.apps.privacy.wildlife / u0a148 / v122178:
+  * com.google.android.rkpdapp / u0a326 / v37:
+  * com.google.android.apps.translate / u0a480 / v701046282:
+  * com.fitbit.FitbitMobile / u0a350 / v1104127814:
+  * com.google.android.apps.work.clouddpc / u0a221 / v10884760:
+  * com.google.android.apps.maps / u0a229 / v1068821134:
+  * com.google.android.apps.turbo:aab / u0a209 / v10273292:
+    (Last Act): 0.23%
+  * com.google.android.cellbroadcastreceiver / u0a312 / v300000000:
+  * com.google.android.apps.pixel.dcservice / u0a262 / v188224:
+  * com.google.android.partnersetup / u0a186 / v17309:
+  * android.process.acore / u0a104 / v37:
+    (Last Act): 0.47%
+  * com.google.android.apps.safetyhub / u0a201 / v100911914:
+  * com.google.android.apps.walletnfcrel / u0a333 / v933944866:
+  * com.google.android.projection.gearhead:car / u0a150 / v178663874:
+  * com.google.android.apps.restore / u0a178 / v1140078:
+  * com.google.android.apps.tachyon / u0a231 / v7672959:
+  * com.whatsapp / u0a395 / v264007622:
+  * com.google.android.keep / u0a225 / v220677611:
+  * com.google.android.accessibility.soundamplifier / u0a243 / v236304:
+  * com.google.android.apps.docs.editors.sheets / u0a543 / v220709798:
+  * com.google.android.apps.youtube.music / u0a255 / v94152240:
+  * com.google.android.deskclock / u0a194 / v76112331:
+  * com.google.android.flipendo / u0a301 / v37:
+  * com.android.vending:quick_launch / u0a187 / v85354840:
+  * com.android.keychain / 1000 / v37:
+  * com.google.android.apps.pixel.customizationbundle / u0a162 / v10005970:
+  * org.telegram.messenger / u0a390 / v71751:
+  * com.google.android.avatarpicker / u0a258 / v37:
+  * com.google.ar.core / u0a256 / v262640093:
+  * com.google.android.hardwareinfo / u0a145 / v1:
+  * com.google.audio.hearing.visualization.accessibility.scribe / u0a203 / v210252:
+  * com.anthropic.claude / u0a336 / v26101420:
+  * com.android.multiuser / u0a271 / v37:
+  * com.google.android.setupwizard / u0a206 / v43869:
+  * com.google.android.apps.pixel.agent / u0a188 / v4396:
+  * com.google.android.apps.stargate / u0a202 / v100171000:
+  * com.google.android.apps.playconsole / u0a555 / v900415141:
+  * com.google.android.apps.pixel.support / u0a192 / v6916:
+  * com.android.DeviceAsWebcam / 1000 / v37:
+  * com.google.android.youtube / u0a254 / v1561303420:
+  * com.google.android.apps.docs / u0a222 / v214680512:
+  * com.google.android.apps.pixel.launcherconnector / u0a279 / v2087:
+  * com.google.android.apps.tasks / u0a348 / v2093557:
+  * com.google.android.setupwizard:remote / u0a206 / v43869:
+  * com.google.android.apps.carrier.log / u0a155 / v10:
+  * com.google.ambient.streaming / u0a149 / v100137340:
+  * com.google.android.apps.docs.editors.docs / u0a374 / v220708489:
+  * com.facebook.aura / u0a554 / v1061601472:
+  * android.process.media / u0a112 / v37:
+  * com.amazon.kindle / u0a411 / v1286529011:
+  * com.google.android.apps.recorder / u0a197 / v42443313:
+  * com.google.android.dialer / u0a177 / v20129573:
+  * com.google.android.odad / u0a184 / v119938:
+  * com.google.android.devicelockcontroller / u0a325 / v36:
+  * com.microsoft.office.outlook / u0a493 / v72640112:
+  * com.google.android.apps.pixel.relationships / u0a198 / v1001221:
+  * com.android.calllogbackup / u0a104 / v37:
+  * com.google.android.photopicker / u0a331 / v37:
+  * com.google.android.crossdeviceaccessservice:com.google.android.crossdeviceaccessservice / u0a299 / v37:
+  * com.android.providers.partnerbookmarks / u0a139 / v37:
+  * com.google.android.apps.nbu.files / u0a174 / v2027683:
+  * com.google.android.apps.adm / u0a223 / v20015005:
+  * com.microsoft.appmanager / u0a467 / v8200516:
+  * com.google.android.apps.work.oobconfig / u0a183 / v664:
+  * com.google.android.webview:webview_service / u0a253 / v803710603:
+  * com.google.android.videos / u0a249 / v439797231:
+  * com.google.android.apps.pixel.tabby / u0a275 / v65574:
+  * com.amazon.mShop.android.shopping / u0a529 / v1243240206:
+  * com.google.android.contacts / u0a224 / v3297735:
+  * com.google.android.projection.gearhead:projection / u0a150 / v178663874:
+  * com.google.android.apps.wallpaper / u0a294 / v200000300:
+  * com.android.traceur / u0a142 / v2:
+  * com.google.android.crossdeviceaccessservice / u0a299 / v37:
+  * com.google.android.accessibility.switchaccess / u0a245 / v827:
+  * com.microsoft.office.officehubrow / u0a522 / v45489613:
+  * com.google.android.packageinstaller / u0a115 / v37:
+  * com.google.android.apps.pulse / u0a196 / v10190:
+  * com.google.android.marvin.talkback / u0a257 / v60215178:
+  * com.google.assistant.hubui:search / u0a169 / v452136:
+  * com.google.android.wfcactivation / u0a215 / v104:
+  * com.google.android.apps.emojiwallpaper / u0a252 / v8404:
+  * com.google.android.verifier / u0a211 / v77989:
+  * com.google.android.settings.intelligence / u0a205 / v1000312241:
+  * com.google.android.apps.pixel.creativeassistant / u0a161 / v192717:
+  * com.twitter.android / u0a422 / v312340001:
+  * com.google.pixel.livewallpaper / u0a190 / v27000055:
+  * com.google.android.healthconnect.controller / u0a328 / v37:
+  * com.google.android.apps.tips / u0a208 / v88010427:
+  * com.android.externalstorage / u0a113 / v37:
+  * com.opentable / u0a553 / v2116289:
+  * com.google.android.apps.pixel.aurelius / u0a550 / v31111:
+  * com.google.euiccpixel / u0a264 / v20235:
+  * com.google.android.contactkeys / u0a338 / v22425:
+  * com.google.android.documentsui / u0a111 / v371020480:
+  * com.google.android.apps.turbo:ssb / u0a209 / v10273292:
+  * com.google.android.configupdater / u0a159 / v40:
+  * com.google.android.carrier / u0a156 / v61:
+
+Run time Stats:
+   SOn/Norm: +2h22m50s255ms
+        Mod: +2s963ms
+      TOTAL: +2h22m53s218ms
+
+Memory usage:
+  Kernel : 2.6GB (16 samples)
+  Native : 1.2GB (16 samples)
+  Persist: 722MB (43 samples)
+  Top: 1.3GB (9 samples)
+  BTop: 571MB (34 samples)
+  BFgs: 582MB (58 samples)
+  ImpFg: 229MB (36 samples)
+  ImpBg: 270MB (88 samples)
+  Service: 49MB (113 samples)
+  Receivr: 19KB (63 samples)
+  LastAct: 9.6MB (17 samples)
+  Cached: 32MB (149 samples)
+  Frozen: 3.2GB (128 samples)
+  Cached : 4.5GB (16 samples)
+  Free   : 1.1GB (16 samples)
+  Z-Ram  : 805MB (16 samples)
+  TOTAL  : 17GB
+  ServRst: 505MB (8 samples)
+
+PSS collection stats:
+  Internal Single: 86x over +1s327ms
+  Internal All Procs (Memory Change): 0x over 0
+  Internal All Procs (Polling): 102x over +853ms
+  External: 0x over 0
+  External Slow: 175x over +4s304ms

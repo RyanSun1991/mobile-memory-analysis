@@ -1,0 +1,14 @@
+5a10ac9e-9ffc-4821-abbd-e32833c9fdce
+2897327.15 15648561.94
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 1500000
+ Time when the latest updated value of the Max charging current was sent via battery changed broadcast: +32d4h23m33s443ms
+  Max charging voltage: 5000000
+  Charge counter: 3855000
+  status: 2
+  health: 2
+  present: true

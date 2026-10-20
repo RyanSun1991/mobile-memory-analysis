@@ -1,0 +1,26 @@
+google/grizzly/grizzly:17/CD1A.260905.001.B1/16238327:user/release-keys
+Google
+Tensor G6
+grizzly
+grizzly
+Linux localhost 6.12.69-android16-6-g5c5f2fea42dd-ab15835541-4k #1 SMP PREEMPT Fri Jul 10 21:44:24 UTC 2026 aarch64 Toybox
+uid=2000(shell) gid=2000(shell) groups=2000(shell),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),1078(ext_data_rw),1079(ext_obb_rw),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid),3012(readtracefs) context=u:r:shell:s0
+/system/bin/sh: su: inaccessible or not found
+low_ram=
+lmk_psi=
+zram_idle=
+zram_size=
+[dalvik.vm.heapgrowthlimit]: [256m]
+[dalvik.vm.heapmaxfree]: [32m]
+[dalvik.vm.heapminfree]: [8m]
+[dalvik.vm.heapsize]: [512m]
+[dalvik.vm.heapstartsize]: [16m]
+[dalvik.vm.heaptargetutilization]: [0.5]
+[init.svc.lmkd]: [running]
+[mm.zram.maintenance.first_delay_seconds]: [86400]
+[mm.zram.maintenance.periodic_delay_seconds]: [86400]
+[persist.sys.lmk.reportkills]: [true]
+[ro.lmk.filecache_min_kb]: [153600]
+[ro.lmk.kill_timeout_ms]: [50]
+[ro.lmk.stall_limit_critical]: [40]
+[ro.zram_backing_device_min_free_mb]: [1536]

@@ -1,0 +1,35 @@
+ACTIVITY MANAGER LMK KILLS (dumpsys activity lmk)
+  Total number of kills: 337
+    kills at or below oom_adj 999: 337
+    kills at or below oom_adj 900: 0
+    kills at or below oom_adj 800: 0
+    kills at or below oom_adj 700: 0
+    kills at or below oom_adj 600: 0
+    kills at or below oom_adj 500: 0
+    kills at or below oom_adj 400: 0
+    kills at or below oom_adj 300: 0
+    kills at or below oom_adj 250: 0
+    kills at or below oom_adj 200: 0
+    kills at or below oom_adj 100: 0
+    kills at or below oom_adj 0: 0
+---lmkd
+   1730           description=null
+     84           description=Sync transaction while frozen
+     78           description=isolated not needed
+     71           description=stop com.google.android.gms due to killDueToPackageUpdate
+     62           description=unstable content provider
+     48           process=android.process.acore reason=14 (FREEZER) subreason=20 (FREEZER BINDER TRANSACTION) status=0
+     24           process=android.process.acore reason=13 (OTHER KILLS BY SYSTEM) subreason=0 (UNKNOWN) status=0
+     22           process=com.google.android.apps.pixel.dcservice reason=2 (SIGNALED) subreason=0 (UNKNOWN) status=9
+     21           process=com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 reason=13 (OTHER KILLS BY SYSTEM) subreason=17 (ISOLATED NOT NEEDED) status=0
+     21           process=com.google.android.apps.emojiwallpaper reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=0
+     19           process=com.google.android.wfcactivation reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=0
+     19           process=com.google.android.apps.aiwallpapers reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=0
+     19           process=com.android.angle reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=0
+     18           process=com.android.traceur reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=0
+     18           description=excessive binder traffic during cached
+     17           process=com.google.android.bluetooth reason=1 (EXIT_SELF) subreason=0 (UNKNOWN) status=0
+     17           description=Sync transaction while in frozen state
+     16           process=com.tencent.mm:support reason=2 (SIGNALED) subreason=0 (UNKNOWN) status=9
+     16           process=com.irtos.aibench reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0
+     16           process=com.google.pixel.livewallpaper reason=3 (LOW_MEMORY) subreason=0 (UNKNOWN) status=0

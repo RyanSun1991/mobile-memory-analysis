@@ -1,0 +1,39 @@
+TOP KEYS: ['build', 'product', 'kernel', 'incident', 'crashReporterKey', 'date', 'codeSigningMonitor', 'bug_type', 'developerMode', 'appleIntelligenceStatus', 'timeDelta', 'memoryStatus', 'largestProcess', 'genCounter', 'processes']
+memoryStatus keys: {
+ "compressorSize": 60478,
+ "compressions": 1696421,
+ "decompressions": 1335561,
+ "zoneMapCap": 1474002944,
+ "largestZone": "APFS_4K_OBJS",
+ "largestZoneSize": 56901632,
+ "pageSize": 16384,
+ "uncompressed": 177518,
+ "zoneMapSize": 287424512,
+ "memoryPages": {
+  "active": 55500,
+  "throttled": 0,
+  "fileBacked": 49867,
+  "wired": 66486,
+  "anonymous": 60328,
+  "purgeable": 1363,
+  "inactive": 50643,
+  "free": 5959,
+  "speculative": 4052
+ }
+}
+largestProcess linnea genCounter 1
+build iPhone OS 27.0 (24A437) product iPhone14,6 date 2026-10-19 09:46:08.59 -0400
+
+file | pageSize | free act inact spec throt wired purg fileB anon | compressor_pages(phys) uncompressed | ratio | compressions decompressions | busyBufferCount | reason-ish
+2026-09-23-084008 16384 | 27 1137 1119 3 0 774 38 975 1285 | 678 2063 | 3.05 | 1439951 1098282 | None | {'per-process-limit': 1}
+2026-09-26-040126 16384 | 143 1192 1067 114 0 749 39 1034 1339 | 583 1890 | 3.24 | 4324219 3518805 | None | {'fc-thrashing': 1, 'highwater': 2}
+2026-09-26-145825 16384 | 102 1082 995 73 0 979 21 946 1204 | 577 1823 | 3.16 | 4643287 3810089 | None | {'fc-thrashing': 1, 'highwater': 1}
+2026-09-27-150403 16384 | 58 529 491 28 0 2224 215 439 609 | 434 1098 | 2.53 | 6078086 5010435 | None | {'idle-exit': 115, 'highwater': 2, 'vm-compressor-thrashing': 1}
+2026-09-29-040145 16384 | 150 1222 1096 122 0 765 32 1134 1306 | 503 1601 | 3.18 | 7649692 6354460 | None | {'fc-thrashing': 1, 'highwater': 1}
+2026-10-02-152134 16384 | 71 1052 998 41 0 811 14 960 1131 | 804 2406 | 2.99 | 12449392 10507714 | None | {'vm-compressor-thrashing': 1, 'highwater': 1}
+2026-10-03-190719 16384 | 50 1166 1141 18 0 753 26 1084 1241 | 625 1912 | 3.06 | 15809753 13481402 | None | {'vm-compressor-thrashing': 1, 'highwater': 1}
+2026-10-06-200127 16384 | 123 1097 991 106 0 790 19 1051 1144 | 721 2143 | 2.97 | 20444076 17528969 | None | {'fc-thrashing': 1, 'highwater': 1}
+2026-10-07-120206 16384 | 137 1140 1026 110 0 774 22 1055 1222 | 657 2026 | 3.08 | 21573609 18622152 | None | {'fc-thrashing': 1, 'highwater': 2}
+2026-10-09-002308 16384 | 69 1057 1008 39 0 790 20 929 1175 | 812 2294 | 2.83 | 28087964 24337720 | None | {'vm-compressor-thrashing': 1, 'highwater': 1}
+2026-10-18-182551 16384 | 141 1254 1130 114 0 754 24 1245 1254 | 457 1358 | 2.97 | 256260 147406 | None | {'fc-thrashing': 1, 'per-process-limit': 1, 'highwater': 1}
+2026-10-19-094608 16384 | 93 867 791 63 0 1039 21 779 943 | 945 2774 | 2.94 | 1696421 1335561 | None | {'vm-compressor-thrashing': 1, 'highwater': 1}

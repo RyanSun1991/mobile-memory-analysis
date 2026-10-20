@@ -1,0 +1,8 @@
+== 994 /system/bin/surfaceflinger 
+VmRSS:	 86452 kB RssAnon:	 65948 kB RssFile:	 19484 kB RssShmem:	 1020 kB VmSwap:	 50212 kB 
+== 1408 system_server                                                                                      
+VmRSS:	 804516 kB RssAnon:	 287832 kB RssFile:	 487480 kB RssShmem:	 29204 kB VmSwap:	 32500 kB 
+== 2071 com.android.systemui                                                                               
+VmRSS:	 412888 kB RssAnon:	 205084 kB RssFile:	 204700 kB RssShmem:	 3104 kB VmSwap:	 24424 kB 
+== 4138 com.google.android.apps.nexuslauncher                                                              
+VmRSS:	 229196 kB RssAnon:	 112452 kB RssFile:	 115160 kB RssShmem:	 1584 kB VmSwap:	 18584 kB 

@@ -1,0 +1,2 @@
+ls: /sys/devices/platform/sswrp_tpu@36000000/36558000.santafe/edgetpu/edgetpu-soc: Permission denied
+ls: /sys/devices/platform/sswrp_tpu@36000000/36558000.santafe: Permission denied

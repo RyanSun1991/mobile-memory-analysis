@@ -1,0 +1,11 @@
+{
+    "CFBundleIdentifier": "com.apple.iokit.IOSurface",
+    "CFBundleIdentifierKernel": "com.apple.iokit.IOSurface",
+    "IOClass": "IOSurfaceRoot",
+    "IOMatchCategory": "IOSurfaceRoot",
+    "IOMatchedAtBoot": true,
+    "IOPersonalityPublisher": "com.apple.iokit.IOSurface",
+    "IOProbeScore": 0,
+    "IOProviderClass": "IOResources",
+    "IOResourceMatch": "IOBSD"
+}

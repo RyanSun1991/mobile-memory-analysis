@@ -1,0 +1,28 @@
+Memory snapshot for GPU 0:
+Global total: 699092992
+Proc 994 total: 137920512
+Proc 1408 total: 20701184
+Proc 2071 total: 135421952
+Proc 2369 total: 66445312
+Proc 2417 total: 61440
+Proc 2660 total: 61440
+Proc 2839 total: 14065664
+Proc 3917 total: 26431488
+Proc 4138 total: 75280384
+Proc 5789 total: 61440
+Proc 7058 total: 61440
+Proc 9343 total: 1814528
+Proc 10119 total: 61440
+Proc 10512 total: 16465920
+Proc 12332 total: 61440
+Proc 13155 total: 61440
+Proc 14882 total: 8818688
+Proc 18834 total: 61440
+Proc 19000 total: 61440
+Proc 19456 total: 61440
+Proc 20881 total: 61440
+Proc 21785 total: 15532032
+Proc 28566 total: 32501760
+Proc 30543 total: 61440
+Proc 31051 total: 91779072
+

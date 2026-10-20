@@ -1,0 +1,24 @@
+amcs android_usb aoc aoc_chan aoc_char arvo backlight battery_history bcm bdi block bluetooth bsg ccci devcoredump devfreq devfreq-event devlink dma dma_heap drm edgetpu extcon firmware gnss goodix_fp goog_touch_interface gsa gsa_gsc gvdu gxp hidraw i2c-dev ieee80211 ieee802154 iif input iommu isku jpu_codec kone koneplus konepure kovaplus leds lirc lwis mdio_bus mem misc mmc_host nd net nfc nvme nvme-generic nvme-subsystem pci_bus pci_epc perf_domain phy pmic pmsg power_supply powercap ppp pps ptp pwm pyra qbt radio rc regulator remoteproc retimer rfkill rpmsg rtc ryos savu scsi_device scsi_disk scsi_generic scsi_host sound spi_master spi_slave sscd_gps sscoredump st54spi stm stm_source synaptics_tcm tas25xx_dev thermal touch_offload trusty_ipc tty typec typec_mux ublk-char udc uio usb_power_delivery usb_role usbmisc vfio vfio-dev video4linux virtio-ports vpu_codec wakeup watchdog wwan xt_idletimer zram-control 
+---edgetpu
+total 0
+drwxr-xr-x   2 root root 0 2026-10-07 10:25 .
+drwxr-xr-x 119 root root 0 2026-09-16 10:25 ..
+lrwxrwxrwx   1 root root 0 2026-10-19 23:14 edgetpu-limited -> ../../devices/platform/sswrp_tpu@36000000/36558000.santafe/edgetpu/edgetpu-limited
+lrwxrwxrwx   1 root root 0 2026-10-07 10:25 edgetpu-soc -> ../../devices/platform/sswrp_tpu@36000000/36558000.santafe/edgetpu/edgetpu-soc
+lrwxrwxrwx   1 root root 0 2026-10-19 23:14 santafe -> ../../devices/platform/sswrp_tpu@36000000/36558000.santafe/edgetpu/santafe
+ls: /sys/class/edgetpu/*/: No such file or directory
+---misc
+ashmem ashmem_ignore_unset_prot_exec ashmem_ignore_unset_prot_read ashmem_unpinning_enable awinic_ctl cpu_dma_latency device-mapper fuse hw_random kvm logbuffer_bd logbuffer_bms_vimon logbuffer_btlpm logbuffer_btwakelock0 logbuffer_btwakelock1 logbuffer_cpm logbuffer_max77779_fwupdate logbuffer_max77779fg logbuffer_max77779fg_monitor logbuffer_pe26100_cp_mains logbuffer_ssoc logbuffer_tcpm logbuffer_ttf logbuffer_tty1 logbuffer_usbpd logbuffer_wireless logbuffer_wlc_fw_update loop-control pixel_gpu_mdev pvr_sync rfkill snapshot st21nfc tas_audio_dev tmc_etf0 tmc_etf1 tmc_etf2 tmc_etf3 tmc_etf4 tmc_etf5 trusty-log0 tun ublk-control uci udmabuf uhid uinput usb_accessory userfaultfd vfio vhost-vsock vsock watchdog wrapfd wwan_pwrctl 
+---gpu
+ls: /sys/kernel/gpu: No such file or directory
+/sys/kernel/gpu/*: cat: /sys/kernel/gpu/*: No such file or directory
+crw-rw----  1 system         audio          496,   1 2026-09-16 10:25 acd-audio_output_tuning
+crw-------  1 root           root           496,   2 2026-09-16 10:25 acd-audio_output_tuning_ext
+drwxr-xr-x  2 root           root                120 2026-09-16 10:25 dri
+lrwxrwxrwx  1 root           root                 16 2026-09-16 10:25 edgetpu -> /dev/edgetpu-soc
+crw-rw----  1 system         system         487,   2 2026-09-16 10:25 edgetpu-limited
+crw-rw----  1 system         system         487,   1 2026-09-16 10:25 edgetpu-soc
+crw-rw-rw-  1 system         camera         486,   0 2026-09-16 10:25 gxp
+crw-rw-rw-  1 system         graphics        10, 289 2026-09-16 10:25 pvr_sync
+crw-------  1 root           root           504,   3 2026-09-16 10:25 sscd_gxp_metis
+crw-------  1 root           root           504,   4 2026-09-16 10:25 sscd_powervr

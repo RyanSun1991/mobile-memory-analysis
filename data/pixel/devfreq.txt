@@ -1,0 +1,38 @@
+34f00000.gpu0
+36558000.santafe
+388a0000.gxp
+codec3p_clamp
+cpuacc_clamp
+dpu_clamp
+dsu_target
+fabdisp_clamp
+fabhbw_clamp
+fabmed_clamp
+fabstby_clamp
+fabsyss_clamp
+g2d_clamp
+gcv_clamp
+gmc_clamp
+irm_gmc_freq
+ispbe_clamp
+ispfe_clamp
+memss_clamp
+/sys/class/devfreq/34f00000.gpu0 cur=460000000 max=cat: /sys/class/devfreq/34f00000.gpu0/max_freq: Permission denied gov=cat: /sys/class/devfreq/34f00000.gpu0/governor: Permission denied avail=15
+/sys/class/devfreq/36558000.santafe cur=cat: /sys/class/devfreq/36558000.santafe/cur_freq: Permission denied max=cat: /sys/class/devfreq/36558000.santafe/max_freq: Permission denied gov=cat: /sys/class/devfreq/36558000.santafe/governor: Permission denied avail=4
+/sys/class/devfreq/388a0000.gxp cur=cat: /sys/class/devfreq/388a0000.gxp/cur_freq: Permission denied max=cat: /sys/class/devfreq/388a0000.gxp/max_freq: Permission denied gov=cat: /sys/class/devfreq/388a0000.gxp/governor: Permission denied avail=4
+/sys/class/devfreq/codec3p_clamp cur=cat: /sys/class/devfreq/codec3p_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/codec3p_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/codec3p_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/cpuacc_clamp cur=cat: /sys/class/devfreq/cpuacc_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/cpuacc_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/cpuacc_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/dpu_clamp cur=cat: /sys/class/devfreq/dpu_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/dpu_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/dpu_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/dsu_target cur=cat: /sys/class/devfreq/dsu_target/cur_freq: Permission denied max=cat: /sys/class/devfreq/dsu_target/max_freq: Permission denied gov=cat: /sys/class/devfreq/dsu_target/governor: Permission denied avail=4
+/sys/class/devfreq/fabdisp_clamp cur=cat: /sys/class/devfreq/fabdisp_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/fabdisp_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/fabdisp_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/fabhbw_clamp cur=cat: /sys/class/devfreq/fabhbw_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/fabhbw_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/fabhbw_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/fabmed_clamp cur=cat: /sys/class/devfreq/fabmed_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/fabmed_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/fabmed_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/fabstby_clamp cur=cat: /sys/class/devfreq/fabstby_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/fabstby_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/fabstby_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/fabsyss_clamp cur=cat: /sys/class/devfreq/fabsyss_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/fabsyss_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/fabsyss_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/g2d_clamp cur=cat: /sys/class/devfreq/g2d_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/g2d_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/g2d_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/gcv_clamp cur=cat: /sys/class/devfreq/gcv_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/gcv_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/gcv_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/gmc_clamp cur=cat: /sys/class/devfreq/gmc_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/gmc_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/gmc_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/irm_gmc_freq cur=cat: /sys/class/devfreq/irm_gmc_freq/cur_freq: Permission denied max=cat: /sys/class/devfreq/irm_gmc_freq/max_freq: Permission denied gov=cat: /sys/class/devfreq/irm_gmc_freq/governor: Permission denied avail=4
+/sys/class/devfreq/ispbe_clamp cur=cat: /sys/class/devfreq/ispbe_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/ispbe_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/ispbe_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/ispfe_clamp cur=cat: /sys/class/devfreq/ispfe_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/ispfe_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/ispfe_clamp/governor: Permission denied avail=4
+/sys/class/devfreq/memss_clamp cur=cat: /sys/class/devfreq/memss_clamp/cur_freq: Permission denied max=cat: /sys/class/devfreq/memss_clamp/max_freq: Permission denied gov=cat: /sys/class/devfreq/memss_clamp/governor: Permission denied avail=4

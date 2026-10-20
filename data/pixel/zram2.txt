@@ -1,0 +1,22 @@
+total 0
+drwxr-xr-x  2 root root 0 2026-09-16 10:25 .
+dr-xr-xr-x 14 root root 0 1969-12-31 19:00 ..
+lrwxrwxrwx  1 root root 0 2026-10-19 10:26 dm-0 -> ../devices/virtual/block/dm-0
+lrwxrwxrwx  1 root root 0 2026-10-19 23:15 dm-1 -> ../devices/virtual/block/dm-1
+lrwxrwxrwx  1 root root 0 2026-10-15 15:38 dm-100 -> ../devices/virtual/block/dm-100
+lrwxrwxrwx  1 root root 0 2026-10-15 15:38 dm-101 -> ../devices/virtual/block/dm-101
+lrwxrwxrwx  1 root root 0 2026-10-07 23:54 dm-102 -> ../devices/virtual/block/dm-102
+lrwxrwxrwx  1 root root 0 2026-10-15 15:38 dm-103 -> ../devices/virtual/block/dm-103
+lrwxrwxrwx  1 root root 0 2026-10-15 15:38 dm-104 -> ../devices/virtual/block/dm-104
+ls: /sys/block/zram0/: Permission denied
+cat: /sys/block/zram0/comp_algorithm: Permission denied
+cat: /sys/block/zram0/mm_stat: Permission denied
+cat: /sys/block/zram0/bd_stat: Permission denied
+cat: /sys/block/zram0/backing_dev: Permission denied
+grep: /proc/crypto: Permission denied
+ehci_hcd
+ehci_pci
+google_ehld_coreinstr
+pciehp
+zram_gs
+zsmalloc

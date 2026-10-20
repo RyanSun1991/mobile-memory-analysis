@@ -1,0 +1,16 @@
+thp=always madvise [never]
+cma
+gcma
+lru_gen
+pgsize_migration
+swap
+transparent_hugepage
+cat: /proc/sys/vm/swappiness: Permission denied
+swappiness=
+cat: /proc/sys/vm/watermark_scale_factor: Permission denied
+wsf=
+cat: /proc/sys/vm/min_free_kbytes: Permission denied
+min_free=
+extra_free=cat: /proc/sys/vm/extra_free_kbytes: No such file or directory
+0x0003
+cat: /sys/kernel/mm/lru_gen/min_ttl_ms: Permission denied

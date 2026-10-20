@@ -1,0 +1,2 @@
+cat: /proc/buddyinfo: Permission denied
+cat: /proc/pagetypeinfo: Permission denied

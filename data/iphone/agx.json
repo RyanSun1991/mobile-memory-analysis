@@ -1,0 +1,2766 @@
+{
+    "AGXParameterBufferMaxSize": 219807744,
+    "AGXParameterBufferMaxSizeEverMemless": 146538496,
+    "AGXParameterBufferMaxSizeNeverMemless": 73269248,
+    "AGXTraceCodeVersion": "3.44.12",
+    "CFBundleIdentifier": "com.apple.AGXG14P",
+    "CFBundleIdentifierKernel": "com.apple.AGXG14P",
+    "CommandSubmissionEnabled": true,
+    "GPUConfigurationVariable": {
+        "core_mask_list": [
+            27
+        ],
+        "gpu_gen": 14,
+        "gpu_var": "P",
+        "is_sksm": 0,
+        "num_cores": 5,
+        "num_frags": 5,
+        "num_gps": 2,
+        "num_mgpus": 1,
+        "usc_gen": 2
+    },
+    "GPURawCounterBundleName": "AGXGPURawCounterBundle",
+    "GPURawCounterPluginClassName": "AGXGPURawCounterSourceGroup",
+    "IOClass": "AGXAcceleratorG14P",
+    "IOGLESBundleName": "AppleMetalGLRenderer",
+    "IOMatchCategory": "IOAcceleratorES",
+    "IOMatchedAtBoot": true,
+    "IONameMatch": [
+        "gpu,t8015",
+        "gpu,t8027",
+        "gpu,t8030",
+        "gpu,t8103",
+        "gpu,t8110"
+    ],
+    "IONameMatched": "gpu,t8110",
+    "IOPersonalityPublisher": "com.apple.AGXG14P",
+    "IOPowerManagement": {
+        "CapabilityFlags": 2,
+        "CurrentPowerState": 1,
+        "DriverPowerState": 1,
+        "MaxPowerState": 1
+    },
+    "IOProbeScore": 10000,
+    "IOProviderClass": "AppleARMIODevice",
+    "IOReportLegend": [
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    1,
+                    6442450945,
+                    "Alloc system memory"
+                ],
+                [
+                    2,
+                    6442450945,
+                    "In use system memory"
+                ],
+                [
+                    3,
+                    6442450945,
+                    "GPU Restart Count"
+                ],
+                [
+                    4,
+                    6442450945,
+                    "In use system memory (driver)"
+                ],
+                [
+                    5,
+                    6442450945,
+                    "Last GPU Restart"
+                ]
+            ],
+            "IOReportGroupName": "Internal Statistics"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 216173288919924736
+            },
+            "IOReportChannels": [
+                [
+                    76202472785753,
+                    4295098369,
+                    "GPU Energy"
+                ]
+            ],
+            "IOReportGroupName": "Energy Model"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    387877586224,
+                    6442450945,
+                    "GPU Power Zone Filter 0"
+                ],
+                [
+                    387877586225,
+                    6442450945,
+                    "GPU Power Zone Filter 1"
+                ],
+                [
+                    387877586226,
+                    6442450945,
+                    "GPU Power Zone Filter 2"
+                ],
+                [
+                    387877586227,
+                    6442450945,
+                    "GPU Power Zone Filter 3"
+                ],
+                [
+                    387877586228,
+                    6442450945,
+                    "GPU Power Zone Filter 4"
+                ],
+                [
+                    77280627148114,
+                    6442450945,
+                    "GPU Power Filter"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Power Zone Filters"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 10
+            },
+            "IOReportChannels": [
+                [
+                    6072344679969803520,
+                    4295098369,
+                    "Average Sum"
+                ],
+                [
+                    6072344679700911104,
+                    4295098369,
+                    "Average Sum Count"
+                ],
+                [
+                    6072344679868354048,
+                    4295098369,
+                    "Min"
+                ],
+                [
+                    6072344679867832320,
+                    4295098369,
+                    "Max"
+                ],
+                [
+                    5572152672691171377,
+                    4295098369,
+                    "Tg1a Latest"
+                ],
+                [
+                    5572170264793329713,
+                    4295098369,
+                    "Tg1a Sum"
+                ],
+                [
+                    5572170264797720625,
+                    4295098369,
+                    "Tg1a Sum Count"
+                ],
+                [
+                    5572163616200732721,
+                    4295098369,
+                    "Tg1a Min"
+                ],
+                [
+                    5572163582008766513,
+                    4295098369,
+                    "Tg1a Max"
+                ],
+                [
+                    5572152672691171379,
+                    4295098369,
+                    "Tg3a Latest"
+                ],
+                [
+                    5572170264793329715,
+                    4295098369,
+                    "Tg3a Sum"
+                ],
+                [
+                    5572170264797720627,
+                    4295098369,
+                    "Tg3a Sum Count"
+                ],
+                [
+                    5572163616200732723,
+                    4295098369,
+                    "Tg3a Min"
+                ],
+                [
+                    5572163582008766515,
+                    4295098369,
+                    "Tg3a Max"
+                ],
+                [
+                    5572152672691171380,
+                    4295098369,
+                    "Tg4a Latest"
+                ],
+                [
+                    5572170264793329716,
+                    4295098369,
+                    "Tg4a Sum"
+                ],
+                [
+                    5572170264797720628,
+                    4295098369,
+                    "Tg4a Sum Count"
+                ],
+                [
+                    5572163616200732724,
+                    4295098369,
+                    "Tg4a Min"
+                ],
+                [
+                    5572163582008766516,
+                    4295098369,
+                    "Tg4a Max"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Temperature"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    306290446408,
+                    68719607810
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "GPU Performance States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    4703537378684392517,
+                    68719607810
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "AFR Performance States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    4779256294837407816,
+                    68719607810
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "GPU Boost Controller Performance States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    77263479784786,
+                    8590065666
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Fender State"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    20073050495403080,
+                    47244771330
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "DVD Request States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5138701042469065805,
+                    73014575106
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "CLTM-induced GPU Performance States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "60090000000000000000000004000000e02e000000000000010000002200000080730c00000000000200000010000000"
+                },
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    20073050445935688,
+                    231928365059,
+                    "GPU Active Time"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Active Time Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "60090000000000000000000004000000e02e000000000000010000002200000080730c00000000000200000010000000"
+                },
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    20073050580216904,
+                    231928365059,
+                    "GPU Idle Time"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Idle Time Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "60090000000000000000000004000000e02e000000000000010000002200000080730c00000000000200000010000000"
+                },
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5066061750913430600,
+                    231928365059,
+                    "Fender Active Time"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Fender Active Time Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "60090000000000000000000004000000e02e000000000000010000002200000080730c00000000000200000010000000"
+                },
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5066061751047711816,
+                    231928365059,
+                    "Fender Idle Time"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Fender Idle Time Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    24020220114194004,
+                    4295098369,
+                    "UVWarn Instances"
+                ],
+                [
+                    6149174098653697605,
+                    4295098369,
+                    "UVWarn Active"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "UV Warn State"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    6071207797712835632,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 0 (<100us)"
+                ],
+                [
+                    6071207797712835633,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 1 (<200us)"
+                ],
+                [
+                    6071207797712835634,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 2 (<300us)"
+                ],
+                [
+                    6071207797712835635,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 3 (<400us)"
+                ],
+                [
+                    6071207797712835636,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 4 (<500us)"
+                ],
+                [
+                    6071207797712835637,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 5 (<1000us)"
+                ],
+                [
+                    6071207797712835638,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 6 (<2000us)"
+                ],
+                [
+                    6071207797712835639,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 7 (<4000us)"
+                ],
+                [
+                    6071207797712835640,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 8 (<10000us)"
+                ],
+                [
+                    6071207797712835641,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 9 (<20000us)"
+                ],
+                [
+                    6071207797712835649,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket 10 (<40000us)"
+                ],
+                [
+                    6071207797712835584,
+                    4311744513,
+                    "TA CtxSwitch Latency Histogram Bucket Max (>=40000us)"
+                ],
+                [
+                    3694151619391345712,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 0 (<100us)"
+                ],
+                [
+                    3694151619391345713,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 1 (<200us)"
+                ],
+                [
+                    3694151619391345714,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 2 (<300us)"
+                ],
+                [
+                    3694151619391345715,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 3 (<400us)"
+                ],
+                [
+                    3694151619391345716,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 4 (<500us)"
+                ],
+                [
+                    3694151619391345717,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 5 (<1000us)"
+                ],
+                [
+                    3694151619391345718,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 6 (<2000us)"
+                ],
+                [
+                    3694151619391345719,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 7 (<4000us)"
+                ],
+                [
+                    3694151619391345720,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 8 (<10000us)"
+                ],
+                [
+                    3694151619391345721,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 9 (<20000us)"
+                ],
+                [
+                    3694151619391345729,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket 10 (<40000us)"
+                ],
+                [
+                    3694151619391345664,
+                    4311744513,
+                    "3D CtxSwitch Latency Histogram Bucket Max (>=40000us)"
+                ],
+                [
+                    4849324923811877936,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 0 (<100us)"
+                ],
+                [
+                    4849324923811877937,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 1 (<200us)"
+                ],
+                [
+                    4849324923811877938,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 2 (<300us)"
+                ],
+                [
+                    4849324923811877939,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 3 (<400us)"
+                ],
+                [
+                    4849324923811877940,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 4 (<500us)"
+                ],
+                [
+                    4849324923811877941,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 5 (<1000us)"
+                ],
+                [
+                    4849324923811877942,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 6 (<2000us)"
+                ],
+                [
+                    4849324923811877943,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 7 (<4000us)"
+                ],
+                [
+                    4849324923811877944,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 8 (<10000us)"
+                ],
+                [
+                    4849324923811877945,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 9 (<20000us)"
+                ],
+                [
+                    4849324923811877953,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket 10 (<40000us)"
+                ],
+                [
+                    4849324923811877888,
+                    4311744513,
+                    "CL CtxSwitch Latency Histogram Bucket Max (>=40000us)"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Context Switch Latencies"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    6073189169021277270,
+                    4311744513,
+                    "THM Activation Count"
+                ],
+                [
+                    6000559781826613811,
+                    4311744513,
+                    "SFE Tier3 Count"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "THM Counters"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    5789186286247105619,
+                    4295098369,
+                    "GPU Off Abort Counter"
+                ]
+            ],
+            "IOReportGroupName": "GPU Off Abort Counter"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    5928236105841398868,
+                    4311744513,
+                    "Total Restarts"
+                ],
+                [
+                    5928236105841398869,
+                    4311744513,
+                    "Unknown Restarts"
+                ],
+                [
+                    5571873383924453956,
+                    4311744513,
+                    "mediaserverd Restarts"
+                ],
+                [
+                    5932177713106399795,
+                    4311744513,
+                    "36223"
+                ],
+                [
+                    5932177717317873977,
+                    4311744513,
+                    "41819"
+                ],
+                [
+                    5932177717334651442,
+                    4311744513,
+                    "42822"
+                ],
+                [
+                    75098766265420,
+                    4311744513,
+                    "DM Kill Count"
+                ],
+                [
+                    20077427183668300,
+                    4311744513,
+                    "GTP Kill Count"
+                ],
+                [
+                    19793714528996428,
+                    4311744513,
+                    "FRG Kill Count"
+                ],
+                [
+                    18933922205879372,
+                    4311744513,
+                    "CDM Kill Count"
+                ],
+                [
+                    21749771400202572,
+                    4311744513,
+                    "Memless Render Failed"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Issue Counts"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    5139821406163519308,
+                    4311744513,
+                    "GTP Single"
+                ],
+                [
+                    5139821406162535760,
+                    4311744513,
+                    "GTP Dependent"
+                ],
+                [
+                    5139821406162863180,
+                    4311744513,
+                    "GTP Idle"
+                ],
+                [
+                    5139821406162340940,
+                    4311744513,
+                    "GTP Alloc New"
+                ],
+                [
+                    5139821406163455556,
+                    4311744513,
+                    "GTP Round robin"
+                ],
+                [
+                    5067190966567520076,
+                    4311744513,
+                    "FRG Single"
+                ],
+                [
+                    5067190966566536528,
+                    4311744513,
+                    "FRG Dependent"
+                ],
+                [
+                    5067190966566863948,
+                    4311744513,
+                    "FRG Idle"
+                ],
+                [
+                    5067190966566341708,
+                    4311744513,
+                    "FRG Alloc New"
+                ],
+                [
+                    5067190966567456324,
+                    4311744513,
+                    "FRG Round robin"
+                ],
+                [
+                    4847084131849553740,
+                    4311744513,
+                    "CDM Single"
+                ],
+                [
+                    4847084131848570192,
+                    4311744513,
+                    "CDM Dependent"
+                ],
+                [
+                    4847084131848897612,
+                    4311744513,
+                    "CDM Idle"
+                ],
+                [
+                    4847084131848375372,
+                    4311744513,
+                    "CDM Alloc New"
+                ],
+                [
+                    4847084131849489988,
+                    4311744513,
+                    "CDM Round robin"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "vChannel Selection"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    5139821241828376576,
+                    4311744513,
+                    "Channel 0"
+                ],
+                [
+                    5139821246123343872,
+                    4311744513,
+                    "Channel 1"
+                ],
+                [
+                    5139821250418311168,
+                    4311744513,
+                    "Channel 2"
+                ],
+                [
+                    5139821254713278464,
+                    4311744513,
+                    "Channel 3"
+                ],
+                [
+                    5139821350513688908,
+                    4311744513,
+                    "Invalid"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "GTP vChannel Usage"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    5067190802232377344,
+                    4311744513,
+                    "Channel 0"
+                ],
+                [
+                    5067190806527344640,
+                    4311744513,
+                    "Channel 1"
+                ],
+                [
+                    5067190810822311936,
+                    4311744513,
+                    "Channel 2"
+                ],
+                [
+                    5067190815117279232,
+                    4311744513,
+                    "Channel 3"
+                ],
+                [
+                    5067190910917689676,
+                    4311744513,
+                    "Invalid"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "FRG vChannel Usage"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 7205759403792793600
+            },
+            "IOReportChannels": [
+                [
+                    4847083967514411008,
+                    4311744513,
+                    "Channel 0"
+                ],
+                [
+                    4847083971809378304,
+                    4311744513,
+                    "Channel 1"
+                ],
+                [
+                    4847083976104345600,
+                    4311744513,
+                    "Channel 2"
+                ],
+                [
+                    4847083980399312896,
+                    4311744513,
+                    "Channel 3"
+                ],
+                [
+                    4847084076199723340,
+                    4311744513,
+                    "Invalid"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "CDM vChannel Usage"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5790016473443419973,
+                    4295098369,
+                    "GPU Discrete Power Zone Engaged"
+                ]
+            ],
+            "IOReportGroupName": "GPU Discrete Power Zone Engaged"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5790030788519936857,
+                    30064902146
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "GPU Discrete Power Zone Residency"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    22614008965386828,
+                    85899476994
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "GPU Power Controller States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    18373192617054796,
+                    85899476994
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "AFR Power Controller States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5786374964131332096,
+                    103079346178
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "PMU Loop Lost Performance Reason Code States"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 72058115876454424
+            },
+            "IOReportChannels": [
+                [
+                    5138701042687429888,
+                    47244771330
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "PPM Target as % of Max GPU Power"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644142538244423,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622704,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 0"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622705,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 1"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622706,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 2"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622707,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 3"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622708,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 4"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622709,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 5"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622710,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 6"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622711,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 7"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622712,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 8"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867622713,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 9"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867618608,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 10"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867618609,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 11"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867618610,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 12"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867618611,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 13"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867618612,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 14"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "32000000000000000000000013000000e803000000000000010000000a000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644189867618613,
+                    124554182659,
+                    "GPU UT Engagement centi-%"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT Engagement",
+            "IOReportSubGroupName": "UT Engagement centi-% Histogram for perf state 15"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319216,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 0"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319217,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 1"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319218,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 2"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319219,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 3"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319220,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 4"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319221,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 5"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319222,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 6"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319223,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 7"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319224,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 8"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319225,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 9"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319472,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 10"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319473,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 11"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319474,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 12"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319475,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 13"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319476,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 14"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    4708035475805319477,
+                    137439084547,
+                    "GPU AVMR Offset"
+                ]
+            ],
+            "IOReportGroupName": "AVMR Offset",
+            "IOReportSubGroupName": "AVMR Offset Histogram for perf state 15"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538800,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_0"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538801,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_1"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538802,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_2"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538803,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_3"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538804,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_4"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538805,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_5"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538806,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_6"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538807,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_7"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538808,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_8"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814538809,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_9"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814551344,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_10"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814551345,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_11"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814551346,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_12"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814551347,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_13"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814551348,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_14"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176814551349,
+                    4311744513,
+                    "AGX.Min_UT_Engagement_Perf_State_15"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Min"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976432,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_0"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976433,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_1"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976434,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_2"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976435,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_3"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976436,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_4"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976437,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_5"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976438,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_6"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976439,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_7"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976440,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_8"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680976441,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_9"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680988976,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_10"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680988977,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_11"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680988978,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_12"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680988979,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_13"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680988980,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_14"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644176680988981,
+                    4311744513,
+                    "AGX.Max_UT_Engagement_Perf_State_15"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Max"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603632,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_0"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603633,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_1"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603634,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_2"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603635,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_3"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603636,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_4"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603637,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_5"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603638,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_6"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603639,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_7"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603640,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_8"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785603641,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_9"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785616176,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_10"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785616177,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_11"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785616178,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_12"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785616179,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_13"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202785616180,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_14"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644202802393397,
+                    4311744513,
+                    "AGX.Sum_UT_Engagement_Perf_State_15"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Sum"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145136,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_0"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145137,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_1"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145138,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_2"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145139,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_3"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145140,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_4"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145141,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_5"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145142,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_6"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145143,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_7"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145144,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_8"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949145145,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_9"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949157680,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_10"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949157681,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_11"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949157682,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_12"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949157683,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_13"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949157684,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_14"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644133949157685,
+                    4311744513,
+                    "AGX.Count_UT_Engagement_Perf_State_15"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562608,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_0"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562609,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_1"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562610,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_2"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562611,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_3"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562612,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_4"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562613,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_5"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562614,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_6"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562615,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_7"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562616,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_8"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210562617,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_9"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210575152,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_10"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210575153,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_11"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210575154,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_12"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210575155,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_13"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210575156,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_14"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6148644181210575157,
+                    4311744513,
+                    "AGX.UT_Not_Engaged_Perf_State_15"
+                ]
+            ],
+            "IOReportGroupName": "GPU UT AggD Stats",
+            "IOReportSubGroupName": "Not_Engaged_Count"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "64000000000000000000000009000000e80300000000000001000000040000008813000000000000020000000a000000"
+                },
+                "IOReportChannelUnit": 648672277969240064
+            },
+            "IOReportChannels": [
+                [
+                    6003378895330628934,
+                    98784509955,
+                    "Spill Buffer Usage"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Spill Buffer Usage Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "64000000000000000000000009000000e803000000000000010000000400000088130000000000000200000004000000"
+                },
+                "IOReportChannelUnit": 648672277969240064
+            },
+            "IOReportChannels": [
+                [
+                    6003383263446516801,
+                    73014706179,
+                    "Spill Buffer Metadata Usage"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Spill Buffer Metadata Usage Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelConfig": {
+                    "$hex": "01000000000000000000000020000000"
+                },
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    6003392098212201796,
+                    137439215619,
+                    "Spill Buffer Unused Blocks per Task"
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "Spill Buffer Metadata Unused Blocks Per Task Histogram"
+        },
+        {
+            "IOReportChannelInfo": {
+                "IOReportChannelUnit": 0
+            },
+            "IOReportChannels": [
+                [
+                    5212723368167473152,
+                    4311875585,
+                    "Throttle Counter HWPI "
+                ],
+                [
+                    4922510259018268672,
+                    4311875585,
+                    "Throttle Counter DPE  "
+                ],
+                [
+                    5569073961448243200,
+                    4311875585,
+                    "Throttle Counter Misc "
+                ],
+                [
+                    5284486310269026304,
+                    4311875585,
+                    "Throttle Counter IVDM "
+                ],
+                [
+                    6075167061770764288,
+                    4311875585,
+                    "Throttle Counter Total"
+                ],
+                [
+                    4841739380336885760,
+                    4311875585,
+                    "Throttle Counter C1PPT   "
+                ],
+                [
+                    4996836426115534403,
+                    4311875585,
+                    "Throttle Counter ExtAsync"
+                ],
+                [
+                    6148539391267569664,
+                    4311875585,
+                    "Throttle Counter UT      "
+                ],
+                [
+                    5284486311867926862,
+                    4311875585,
+                    "IVDM: Min Active Throttle Percent"
+                ],
+                [
+                    5284486311867924824,
+                    4311875585,
+                    "IVDM: Max Throttle Percent       "
+                ]
+            ],
+            "IOReportGroupName": "GPU Stats",
+            "IOReportSubGroupName": "GPU Throttler Counters"
+        }
+    ],
+    "IOReportLegendPublic": true,
+    "IOSourceVersion": "360.34.5a1",
+    "KDebugVersion": 4294967296,
+    "MetalPluginClassName": "AGXG14Device",
+    "MetalPluginName": "AGXMetalG14",
+    "MetalStatisticsName": "AGXMetalStatisticsExternalG14",
+    "PerformanceStatistics": {
+        "Alloc system memory": 227901440,
+        "Allocated PB Size": 3670016,
+        "Device Utilization %": 28,
+        "In use system memory": 23347200,
+        "In use system memory (driver)": 0,
+        "Renderer Utilization %": 26,
+        "SplitSceneCount": 0,
+        "TiledSceneBytes": 79626240,
+        "Tiler Utilization %": 26,
+        "lastRecoveryTime": 0,
+        "recoveryCount": 0
+    },
+    "SCMBuildTime": "",
+    "SCMVersionNumber": "",
+    "SchedulerState": {
+        "BusyWorkQueues": [],
+        "Stamps": []
+    }
+}

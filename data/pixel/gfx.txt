@@ -1,0 +1,20 @@
+Build configuration: [sf PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=0 MAX_VIRT_DISPLAY_DIM=0 RUNNING_WITHOUT_SYNC_FRAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=3]
+   framebufferSpace=ProjectionSpace{bounds=Rect(0, 0, 1080, 2410), content=Rect(0, 0, 1080, 2410), orientation=ROTATION_0} 
+   LegacyFramebufferSurface
+      (mConsumerName=LegacyFramebufferSurface, mConnectedApi=1, mConsumerUsageBits=6656, mPresentMode=1
+RenderEngine tracked buffers: 42
+            buffers: [
+            buffers: [
+          source_crop:{left:0 top:0 right:1080 bottom:2410} display_frame:{left:0 top:0 right:1080 bottom:2410} z_order:0 alpha:1 sf_type:INVALID validated_type:INVALID buffer:0xb40000757e4139f0 num_buffers:null transform:[kIdentity] blending:kPreMult acquire_fence:112 validate_trigger:[kLayerBlendMode kLayerBuffer kLayerDataspace kLayerDisplayFrame kLayerSourceCrop ]
+            source_crop:{left:0 top:0 right:1080 bottom:2410} display_frame:{left:0 top:0 right:1080 bottom:2410} z_order:5 alpha:0 sf_type:DEVICE validated_type:DEVICE buffer:0xb40000757e429cb0 num_buffers:3 transform:[kIdentity] blending:kPreMult acquire_fence:56 validate_trigger:[]
+            source_crop:{left:0 top:0 right:1080 bottom:2410} display_frame:{left:0 top:0 right:1080 bottom:2410} z_order:4 alpha:0 sf_type:DEVICE validated_type:DEVICE buffer:0xb40000757e430430 num_buffers:6 transform:[kIdentity] blending:kPreMult acquire_fence:146 validate_trigger:[]
+Total CPU memory usage:
+Total GPU memory usage:
+Total CPU memory usage:
+Total GPU memory usage:
+Total CPU memory usage:
+Total GPU memory usage:
+Total CPU memory usage:
+Total GPU memory usage:
+Total CPU memory usage:
+Total GPU memory usage:

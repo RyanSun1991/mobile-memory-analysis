@@ -1,0 +1,13 @@
+cat: /proc/sys/vm/page-cluster: Permission denied
+MP1.0
+16GiB
+[init.svc.hidl_memory]: [stopped]
+[persist.device_config.memory_management_native_boot.MemoryGuardianKillSwitch__memory_guardian_kill_switch]: [false]
+[persist.log.tag.RmmEmbmsReq]: [I]
+[persist.log.tag.RmmEmbmsUrc]: [I]
+[persist.log.tag.RtmEmbmsAt]: [I]
+[persist.log.tag.RtmEmbmsUtil]: [I]
+[ro.boot.boottime_extra]: [PKD:1819,RKD:31,DISP:230,DISP_PE:123,DISP_WAIT:0,KL_VB:26,KL_BOOT:48,KL_INTB:6,KL_VBS:0,KL_VBV:1,KL_DTBO:11,KL_PVMFW:1,KL_VDRB:42,KL_VDRKB:42,ODT_DOARD:9,ODT_DEVICE:0,ODT_DPM:0,DRAM_TRAIN:0]
+[ro.boot.ddr_info]: [Samsung]
+[ro.boot.ddr_size]: [16GiB]
+[ro.boot.hardware.ddr]: [16GiB,Samsung,LPDDR5,010a]

@@ -1,0 +1,6 @@
+cat: /proc/pressure/memory: Permission denied
+
+cat: /proc/pressure/cpu: Permission denied
+
+some avg10=0.00 avg60=0.00 avg300=0.00 total=5010073495
+full avg10=0.00 avg60=0.00 avg300=0.00 total=2874301320

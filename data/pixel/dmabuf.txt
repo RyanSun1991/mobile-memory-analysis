@@ -1,0 +1,23 @@
+total 0
+drwxr-xr-x  2 root   root          340 2026-09-16 10:25 .
+drwxr-xr-x 22 root   root         7120 2026-10-15 17:33 ..
+cr--r--r--  1 system audio    248,  14 2026-09-16 10:25 aaudio_capture_heap
+cr--r--r--  1 system audio    248,  12 2026-09-16 10:25 aaudio_offload_heap
+cr--r--r--  1 system audio    248,  13 2026-09-16 10:25 aaudio_playback_heap
+cr--r--r--  1 system system   248,  11 2026-09-16 10:25 contexthub_shared_data_heap
+cr--r--r--  1 system graphics 248,   5 2026-09-16 10:25 faceauth_tpu-secure
+cr--r--r--  1 system graphics 248,   4 2026-09-16 10:25 famodel-secure
+cr--r--r--  1 system graphics 248,   2 2026-09-16 10:25 faprev-secure
+cr--r--r--  1 system graphics 248,   6 2026-09-16 10:25 farawimg-secure
+cr--r--r--  1 system graphics 248,  10 2026-09-16 10:25 sensor_direct_heap
+cr--r--r--  1 system system   248,   7 2026-09-16 10:25 system
+cr--r--r--  1 system system   248,   8 2026-09-16 10:25 system-uncached
+crw-------  1 root   root     248,   9 2026-09-16 10:25 tpu_offload_heap
+cr--r--r--  1 system drmrpc   248,   1 2026-09-16 10:25 vframe-secure
+crw-------  1 root   root     248,   3 2026-09-16 10:25 vpu_fw-secure
+cr--r--r--  1 system drmrpc   248,   0 2026-09-16 10:25 vstream-secure
+buffers
+cat: /sys/kernel/dmabuf/total_pools_kb: No such file or directory
+ls: /sys/kernel/dma_heap: Permission denied
+cat: /sys/kernel/dma_heap/total_pools_kb: Permission denied
+1

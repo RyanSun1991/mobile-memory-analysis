@@ -1,0 +1,36 @@
+{
+    "CFBundleIdentifier": "com.apple.driver.AppleH11ANEInterface",
+    "CFBundleIdentifierKernel": "com.apple.driver.AppleH11ANEInterface",
+    "DeviceProperties": {
+        "ANEDevicePropertyANECPUSubType": 5,
+        "ANEDevicePropertyANEHWBoardSubType": 0,
+        "ANEDevicePropertyANEHWBoardType": 112,
+        "ANEDevicePropertyANEMinorVersion": 17,
+        "ANEDevicePropertyANEVersion": 112,
+        "ANEDevicePropertyBondedModeSupported": 0,
+        "ANEDevicePropertyIsInternalBuild": false,
+        "ANEDevicePropertyNumANECores": 16,
+        "ANEDevicePropertyTypeANEArchitectureTypeStr": "h14"
+    },
+    "FirmwareLoaded": true,
+    "IOClass": "H11ANEIn",
+    "IOFunctionParent000000CD": {
+        "$hex": ""
+    },
+    "IOGeneralInterest": "IOCommand is not serializable",
+    "IOMatchCategory": "IODefaultMatchCategory",
+    "IOMatchedAtBoot": true,
+    "IONameMatch": "ane,t8020",
+    "IONameMatched": "ane,t8020",
+    "IOPersonalityPublisher": "com.apple.driver.AppleH11ANEInterface",
+    "IOPowerManagement": {
+        "CapabilityFlags": 0,
+        "CurrentPowerState": 0,
+        "DevicePowerState": 0,
+        "MaxPowerState": 1
+    },
+    "IOProbeScore": 0,
+    "IOProviderClass": "AppleARMIODevice",
+    "SharedEventAgentSignalEnabled": false,
+    "SurfaceSharedEventAgentMask": 128
+}
